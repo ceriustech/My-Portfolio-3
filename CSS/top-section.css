@@ -1,0 +1,24 @@
+#top {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+#top .info {
+    
+}
+
+
+#top .img {
+    width: 500px;
+    
+}
+
+#top .img .background-img {
+    background-image: url("../Img/my-pic-4.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 500px;
+    height: 700px;
+}
