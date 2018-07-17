@@ -1,0 +1,102 @@
+#services {
+    padding: 80px 15px;
+}
+
+#services .title {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#services .title .colored-circle {
+    background: #eef9ff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50;
+}
+
+#services .title h1 {
+    position: relative;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #16171c;
+    letter-spacing: 2px;
+    z-index: 1;
+}
+
+#services .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 40px;
+}
+
+#services .services-container .panel {
+    background: rgba(255,255,255,0);
+    transition: all .4s ease-in-out;
+    padding: 40px;
+}
+
+#services .services-container .panel h3 {
+    font-size: 1.2em;
+    font-weight: 800; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#services .services-container .panel p {
+    color: #a4a4a4;
+    line-height: 1.5; 
+    margin-bottom: 50px;
+} 
+
+#services .services-container .fa {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+#services .services-container .fas {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+#services .services-container .fab {
+    font-size: 2.5em; 
+    margin-bottom: 50px;
+}
+
+#services .services-container.panel:hover {
+    background: rgba(255,255,255,1);
+}
+
+#services .services-container .box-1 {
+    border-bottom: 2px solid #DA7962;
+}
+
+#services .services-container .box-2 {
+    border-bottom: 2px solid #BF2C3B;
+}
+
+#services .services-container .box-3 {
+    border-bottom: 2px solid #C9A556;
+}
+
+#services .services-container .box-4 {
+    border-bottom: 2px solid #9039CF;
+}
+
+#services .services-container .box-5 {
+    border-bottom: 2px solid #90C160;
+}
+
+#services .services-container .box-6 {
+    border-bottom: 2px solid #3C6F99;
+}
+
