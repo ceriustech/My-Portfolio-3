@@ -36,12 +36,9 @@
 }
 
 #portfolio .portfolio-container .panel {
-    background: black;
     display: block;
-    transition: all .4s ease-in-out;
     cursor: pointer;
     text-transform: uppercase;
-    color: #fff;
     -webkit-box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
 -moz-box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
 box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
@@ -52,18 +49,9 @@ box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
     font-weight: 800; 
     letter-spacing: 2px;
     text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
     
 }
-
-
-
-
-#portfolio .portfolio-container .panel:hover {
-    
-}
-
 
 
 
