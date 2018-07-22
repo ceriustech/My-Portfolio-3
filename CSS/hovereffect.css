@@ -16,7 +16,7 @@
 	bottom: 0;
 	padding: 1em;
 	height: 4.5em;
-	background-color: #2fc6b2;
+	background-color: rgba(52,63,83,1);
 	color: #fff;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.4s ease-in-out;
@@ -26,6 +26,8 @@
 }
 
 .hovereffect img {
+    height: 100%;
+    width: 100%l
     display: block;
     position: relative;
 	-webkit-transition: -webkit-transform 0.35s;
@@ -43,8 +45,6 @@
     text-align: center;
     position: relative;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
-    border: 1px solid #fff;
 	float: left;
 	margin: 0px;
 	display: inline-block;
@@ -68,14 +68,19 @@
 .hovereffect p.icon-links a {
 	float: left;
 	color: #fff;
-	font-size: 1.4em;
+	font-size: 0.9em;
     position: relative;
-    left: 20%;
+    left: 25%;
+    top: 5px;
+    background: #2fc6b2;
+    padding: 5px 10px;
+    letter-spacing: .05em;
 }
 
 .hovereffect:hover p.icon-links a:hover,
 .hovereffect:hover p.icon-links a:focus {
-	color: #252d31;
+	color: #343F53;
+    transition: .25s ease-in-out;
 }
 
 .hovereffect h2,
