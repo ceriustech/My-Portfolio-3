@@ -33,7 +33,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-gap: 40px;
+    margin-top: 25px;
 }
+
+/****** Services Panel Section ******/
 
 #services .services-container .panel {
     background: rgba(255,255,255,0);

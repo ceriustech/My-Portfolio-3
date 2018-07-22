@@ -1,0 +1,158 @@
+#experience-section {
+    padding: 80px 0;
+}
+
+/****** Experience Title Section ******/
+
+#experience-section .title {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#experience-section .title .triangle-topright  {
+    width: 0;
+	height: 0;
+	border-top: 200px solid #f6e2ff;
+	border-left: 200px solid transparent;
+    position: absolute;
+    top: 50;
+}
+
+#experience-section .title h1 {
+    position: relative;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #16171c;
+    letter-spacing: 2px;
+    z-index: 1;
+}
+
+#experience-section .experience-container {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/****** Experience Icon Section ******/
+
+#experience-section .experience-container .large-icons .square {
+    border: 20px solid #52b8ff;
+    display: inline-block;
+    padding: 6px;
+    position: relative;
+    top: -50px;
+}
+
+#experience-section .experience-container .large-icons .square .blue-box {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    background: #52b8ff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+#experience-section .experience-container .large-icons .circle {
+    border: 20px solid #ffc853;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 175px;
+}
+
+#experience-section .experience-container .large-icons .circle .white-box {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    right: 75px;
+    font-weight: 700;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ffc853;
+}
+
+/****** Experience Info Section ******/
+
+#experience-section .experience-container .info {
+    
+}
+
+#experience-section .experience-container .info .info-box {
+    padding: 15px;
+}
+
+#experience-section .experience-container .info .info-box h4{
+    color: #000;
+    font-weight: 600; 
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#experience-section .experience-container .info .info-box .date{
+    color: #52b8ff;
+    font-weight: 700;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    text-transform: capitalize; 
+    padding-top: 15px;
+    padding-bottom: 20px;
+    
+}
+
+#experience-section .experience-container .info .info-box p{
+    color:  #a4a4a4;
+    line-height: 1.8em;
+    
+}
+/*** Border Styles ***/
+
+#experience-section .experience-container .info .info-box .progress-bar .progress-bar-html-css {
+    border: 1px solid #f2f2f1;
+    background: #f2f2f1;
+}
+#experience-section .experience-container .info .info-box .progress-bar .progress-bar-html-css .progress-bar-style {
+    background: #2ecc71;
+    width: 85%;
+    text-align: right;
+    color: #fff;
+    padding-right: 5px;
+}
+
+#experience-section .experience-container .info .info-box .progress-bar .progress-bar-js {
+    border: 1px solid #f2f2f1;
+    background: #f2f2f1;
+}
+
+#experience-section .experience-container .info .info-box .progress-bar .progress-bar-js .progress-bar-style {
+    background: #2ecc71;
+    width: 40%;
+    text-align: right;
+    color: #fff;
+    padding-right: 5px;
+}
+
+#experience-section .experience-container .info .info-box .progress-bar .progress-bar-php {
+    border: 1px solid #333;
+}
+
+#experience-section .experience-container .info .info-box .progress-bar .progress-bar-mysql {
+    border: 1px solid #333;
+}
