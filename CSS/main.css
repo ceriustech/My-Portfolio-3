@@ -1,8 +1,10 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import "top-section.css";
-@import"services.css";
-@import"portfolio.css";
+@import "services.css";
+@import "portfolio.css";
+@import "experience.css";
+@import "blog-section.css";
 
 .container {
     max-width: 1150px;

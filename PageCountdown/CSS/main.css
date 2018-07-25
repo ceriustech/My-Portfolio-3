@@ -1,0 +1,88 @@
+.appName {
+    font-size: 40;
+    font-weight: bold;
+}
+
+.landing {
+    position: relative;
+    background-image: url('../Img/coding-computer-data.jpg');
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 50px;
+}
+
+.landing-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pageMessage {
+    font-size: 25px;
+}
+
+.fa-users {
+    font-size: 250px;
+}
+
+.landing h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.countdown {
+    font-size: 50px;
+    display: flex; 
+    justify-content: center;
+}
+
+.countdown div {
+    padding: 20px;
+    border: solid #fff;
+    border-radius: 10px;
+    margin: 5px;
+    opacity: 0.8;
+    background: #000;
+}
+
+.countdown div:first-child {
+    background: #DD5342; 
+}
+
+.countdown span {
+    display: block;
+    font-size: 40px; 
+}
+
+
+/************Media Queries***************/
+
+@media (max-width: 650px) {
+    .landing h1 {
+        font-size: 40px;
+    }
+    
+    .countdown {
+        font-size: 30px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .countdown div {
+        width: 40%; 
+        
+    }
+    
+    .countdown span {
+        font-size: 20px;
+    }
+}

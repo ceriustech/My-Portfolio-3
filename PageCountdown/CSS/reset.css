@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #333;
+    overflow: hidden;
+}
+
+.fa-users {
+    font-size: 250px;
+}
+.primary {
+    color: #DD5342;
+}
+
+
+
+ 

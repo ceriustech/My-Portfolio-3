@@ -73,7 +73,7 @@
     top: 175px;
 }
 
-#experience-section .experience-container .large-icons .circle .white-box {
+#experience-section .experience-container .large-icons .circle .circle-box {
     width: 150px;
     height: 150px;
     padding: 5px;
@@ -87,6 +87,41 @@
     letter-spacing: 3px;
     color: #ffc853;
 }
+
+#experience-section .experience-container .large-icons .triangle {
+    width: 0;
+	height: 0;
+	border-style: solid;
+    border-width: 0 150px 230px 150px;
+    border-color: transparent transparent #ff5253 transparent; 
+    position: relative; 
+    top: 150px;
+}
+
+#experience-section .experience-container .large-icons .triangle .triangle-box {
+    width: 0;
+	height: 0;
+	border-style: solid;
+    border-width: 0 93.75px 151.75px 93.75px;
+    border-color: transparent transparent #fff transparent; 
+    position: absolute;
+    left: -94px;
+    top: 49px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ff5253;
+}
+
+#experience-section .experience-container .large-icons .triangle .triangle-box .text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 85px;
+}
+
+
+
 
 /****** Experience Info Section ******/
 
@@ -124,10 +159,28 @@
 }
 /*** Border Styles ***/
 
+#experience-section .experience-container .info .info-box .progress-bar .skill-style {
+    display: flex;
+    align-items: baseline;
+    margin-top: 15px;
+}
+
+#experience-section .experience-container .info .info-box .progress-bar .skill-style h5 {
+    padding-left: 8px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #7E8CA0;
+    
+}
+
+/** HTML/CSS **/
+
 #experience-section .experience-container .info .info-box .progress-bar .progress-bar-html-css {
-    border: 1px solid #f2f2f1;
+    border: 1px solid #f2f2f1;  
     background: #f2f2f1;
 }
+
 #experience-section .experience-container .info .info-box .progress-bar .progress-bar-html-css .progress-bar-style {
     background: #2ecc71;
     width: 85%;
@@ -136,6 +189,7 @@
     padding-right: 5px;
 }
 
+/** Javascript **/
 #experience-section .experience-container .info .info-box .progress-bar .progress-bar-js {
     border: 1px solid #f2f2f1;
     background: #f2f2f1;
@@ -149,10 +203,38 @@
     padding-right: 5px;
 }
 
+/** PHP **/
+
 #experience-section .experience-container .info .info-box .progress-bar .progress-bar-php {
-    border: 1px solid #333;
+    border: 1px solid #f2f2f1;
+    background: #f2f2f1;
 }
 
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-mysql {
-    border: 1px solid #333;
+#experience-section .experience-container .info .info-box .progress-bar .progress-bar-php .progress-bar-style {
+    background: #2ecc71;
+    width: 40%;
+    text-align: right;
+    color: #fff;
+    padding-right: 5px;
 }
+
+/** MySql **/
+
+#experience-section .experience-container .info .info-box .progress-bar .progress-bar-mysql {
+    border: 1px solid #f2f2f1;
+    background: #f2f2f1;
+}
+
+#experience-section .experience-container .info .info-box .progress-bar .progress-bar-mysql .progress-bar-style {
+    background: #2ecc71;
+    width: 40%;
+    text-align: right;
+    color: #fff;
+    padding-right: 5px;
+}
+
+#experience-section .experience-container .info .info-box .progress-bar i {
+    font-size: 3.5em;
+}
+
+
