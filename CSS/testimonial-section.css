@@ -1,0 +1,23 @@
+#testimonial-section {
+     padding: 80px 0;
+}
+
+#testimonial-section .title {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#testimonial-section .title h1 {
+    position: relative;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #16171c;
+    letter-spacing: 2px;
+    z-index: 1;
+}

@@ -117,7 +117,7 @@ a {
 .talkbubble {
    width: 150px;
    height: 100px;
-   background: red;
+   background: #c6ecef;
    position: absolute;
    -moz-border-radius:    10px;
    -webkit-border-radius: 10px;
@@ -132,7 +132,7 @@ a {
    width: 0;
    height: 0;
    border-top: 13px solid transparent;
-   border-right: 26px solid red;
+   border-right: 26px solid #c6ecef;
    border-bottom: 13px solid transparent;
 }
 
@@ -140,10 +140,10 @@ a {
   width: 0px;
   height: 0px;
     position: absolute;
-  border-right: 60px solid transparent;
-  border-top: 60px solid red;
-  border-left: 60px solid red;
-  border-bottom: 60px solid red;
+  border-right: 70px solid transparent;
+  border-top: 70px solid #f7e8b2;
+  border-left: 70px solid #f7e8b2;
+  border-bottom: 70px solid #f7e8b2;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
