@@ -21,3 +21,18 @@
     letter-spacing: 2px;
     z-index: 1;
 }
+
+#testimonial-section .testimonial-container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+#testimonial-section .testimonial-container .test-center {
+    background: #fff;
+    padding: 55px;
+}
+
+#testimonial-section .testimonial-container .test-center .test-center-hdr {
+    display: flex;
+    
+}
