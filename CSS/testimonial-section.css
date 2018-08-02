@@ -90,3 +90,62 @@
     background-size: cover  !important;
     background-color: #f2f3f5;
 }
+
+#testimonial-section .testimonial-container .testimonialpager {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45%;
+}
+
+/***** Testimonial Slideshow Styles *****/
+
+/* Slideshow container */
+
+#testimonial-section .testimonial-container .test-container .slidehow-container .mySlides {
+    display: none;
+}
+
+/*  Bullets/Indicators */
+
+.active {
+    color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

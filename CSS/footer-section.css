@@ -1,0 +1,68 @@
+footer {
+    background: #f9fafc;
+    padding: 100px 15px;
+}
+
+.footer-social-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.footer-social-links a {
+    font-size: 2em;
+    color: #8e8f91;
+    -webkit-transition: 1.2s; 
+    -moz-transition: 1.2s; 
+    -o-transition: 1.2s; 
+    transition: 1.2s ease; 
+}
+
+.footer-social-links a .fa-facebook-f {
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+.footer-social-links a .fa-twitter {
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+.footer-social-links a .fa-linkedin-in {
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+.footer-social-links a .fa-dribbble {
+   -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+/* Footer Section Hover Effects */
+
+.footer-social-links a .fa-facebook-f:hover {
+    color: #3b5998; 
+}
+
+.footer-social-links a .fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.footer-social-links a .fa-linkedin-in:hover {
+    color: #007bb5;
+} 
+
+.footer-social-links a .fa-dribbble:hover {
+    color: #ea4c89;
+}
