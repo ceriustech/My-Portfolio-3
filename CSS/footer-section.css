@@ -15,6 +15,7 @@ footer {
 .footer-social-links a {
     font-size: 2em;
     color: #8e8f91;
+    padding: 10px;
     -webkit-transition: 1.2s; 
     -moz-transition: 1.2s; 
     -o-transition: 1.2s; 
@@ -22,31 +23,31 @@ footer {
 }
 
 .footer-social-links a .fa-facebook-f {
-    -webkit-transition: all .8s ease-in-out;
-    -moz-transition: all .8s ease-in-out;
-    -o-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
 }
 
 .footer-social-links a .fa-twitter {
-    -webkit-transition: all .8s ease-in-out;
-    -moz-transition: all .8s ease-in-out;
-    -o-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;
+   -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
 }
 
 .footer-social-links a .fa-linkedin-in {
-    -webkit-transition: all .8s ease-in-out;
-    -moz-transition: all .8s ease-in-out;
-    -o-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;
+   -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
 }
 
 .footer-social-links a .fa-dribbble {
-   -webkit-transition: all .8s ease-in-out;
-    -moz-transition: all .8s ease-in-out;
-    -o-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;
+   -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
 }
 
 /* Footer Section Hover Effects */
@@ -65,4 +66,21 @@ footer {
 
 .footer-social-links a .fa-dribbble:hover {
     color: #ea4c89;
+}
+
+#footer-section h5 {
+    font-size: 1.2em;
+    color: #444444;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#footer-section h6 {
+    font-size: 1em;
+    color: #444444;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
 }

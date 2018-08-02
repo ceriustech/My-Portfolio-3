@@ -7,8 +7,11 @@
 @import "blog-section.css";
 @import "testimonial-section.css";
 @import "footer-section.css";
+@import "responsive.css";
+@import "hovereffect.css";
 
 .container {
     max-width: 1150px;
     margin: 0 auto;
 }
+
