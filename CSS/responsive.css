@@ -3,11 +3,37 @@
 /* Tablets */
 
 @media only screen and (max-width: 960px){
-    .container{ width: 100%;}
+    .container{ width: 200%;}
+    /* Top Section */
+    
+    #top .info .colored-square {
+        position: absolute;
+        left:-35%;
+    }
+    
+    /* Services Section */
+    
+    #services-section .services-container {
+        grid-template-columns: 100%; 
+}
 }
 
 /* Phones */
 
 @media only screen and (max-width: 767px){
+     /* Top Section */
+    #top .container {
+        padding: 0 15px 80px;
+    }
+    
+    #top .info .colored-square {
+        display: none;
+    }
+    
+    /* Services Section */
+    
+    #services-section .services-container {
+        grid-template-columns: 100%;
+}
     
 }
