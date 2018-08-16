@@ -8,8 +8,14 @@
     position: relative;
     width: 200px;
     height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
 }
@@ -36,7 +42,7 @@
 #experience-section .experience-container {
     margin-top: 25px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     grid-gap: 20px;
 }
 
@@ -59,8 +65,14 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     letter-spacing: 3px;
 }
@@ -80,8 +92,14 @@
     right: 75px;
     font-weight: 700;
     font-size: 1.2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -114,7 +132,11 @@
 }
 
 #experience-section .experience-container .large-icons .triangle .triangle-box .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     top: 85px;
@@ -160,7 +182,11 @@
 /*** Border Styles ***/
 
 #experience-section .experience-container .info .info-box .progress-bar .skill-style {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
     align-items: baseline;
     margin-top: 15px;
 }

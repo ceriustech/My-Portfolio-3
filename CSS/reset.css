@@ -26,8 +26,8 @@ time, mark, audio, video {
     width: 100%;
 }
 
-
-@media only screen and (max-width: 768px) {
+/*
+@media only screen and (min-width: 768px) {
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -41,8 +41,9 @@ time, mark, audio, video {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 }
-
+*/
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -84,7 +85,8 @@ a {
 /*** Helper Classes ***/
 
 .section-padding {
-    padding: 80px 15px; 
+    padding: 80px 15px;
+ 
 }
 
 .center {
@@ -117,6 +119,7 @@ a {
 .fa-circle {
     padding: 5px;
     color: #a4a4a4;
+    -webkit-transition: color 0.6s ease;
     transition: color 0.6s ease;
 }
 
@@ -125,8 +128,6 @@ a {
    height: 100px;
    background: #c6ecef;
    position: absolute;
-   -moz-border-radius:    10px;
-   -webkit-border-radius: 10px;
    border-radius:         10px;
     z-index: 0;
 }

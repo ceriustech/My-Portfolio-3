@@ -4,8 +4,14 @@
     position: relative;
     width: 200px;
     height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
 }
@@ -30,18 +36,30 @@
 
 #portfolio .portfolio-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 300px;
-    grid-gap: 15px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto; 
+    grid-gap: 10px;
+    
 }
 
-#portfolio .portfolio-container .panel {
-    display: block;
+
+
+#portfolio .portfolio-container .row .panel {
+    -webkit-box-flex: 33.33%;
+    -ms-flex: 33.33%;
+    flex: 33.33%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
     cursor: pointer;
     text-transform: uppercase;
     -webkit-box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
-    -moz-box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
     box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
+}
+
+#portfolio .portfolio-container .row .panel img {
+    vertical-align: middle;
 }
 
 #portfolio .portfolio-container .panel h2 {
