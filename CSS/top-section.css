@@ -1,8 +1,7 @@
 
 #top .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; 
+    display: grid;
+    grid-template-columns: auto auto; 
     padding: 80px 0; 
 }
 
