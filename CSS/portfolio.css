@@ -36,8 +36,8 @@
 
 #portfolio .portfolio-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: repeat(3, 150px); 
     grid-gap: 10px;
     
 }
@@ -45,9 +45,6 @@
 
 
 #portfolio .portfolio-container .row .panel {
-    -webkit-box-flex: 33.33%;
-    -ms-flex: 33.33%;
-    flex: 33.33%;
     margin: 10px;
     text-align: center;
     line-height: 75px;
