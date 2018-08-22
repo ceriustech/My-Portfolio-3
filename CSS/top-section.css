@@ -1,7 +1,7 @@
 
 #top .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
     padding: 80px 0; 
 }
 
@@ -37,6 +37,7 @@
 
 #top .info p {
     position: relative;
+    width: 50%;
     color: #919191;
     margin-bottom: 5em;
     z-index: 1;

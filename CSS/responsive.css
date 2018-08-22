@@ -1,0 +1,51 @@
+@media only screen and (max-width: 912px) {
+    /***** Top Section *****/
+    #top .info .colored-square {
+        width: 125px;
+    }
+}
+
+@media only screen and (max-width: 811px) {
+    /***** Experience Section *****/
+    #experience-section .experience-container .large-icons .square {
+        position: relative;
+        top: 50px;
+        left: 65px;
+    }
+    #experience-section .experience-container .large-icons .circle {
+        position: relative;
+        top: 100px;
+        left: 65px;
+}
+    #experience-section .experience-container .large-icons .triangle {
+        position: relative;
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /***** Services Section *****/
+    #services-section .services-container .panel:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    
+}
+}
+@media only screen and (max-width: 600px) {
+    /***** Top Section *****/
+    #top .info {
+        position: relative;
+        bottom: 202px;
+}
+    #top .img {
+        position: relative;
+        bottom: 50px;
+    }
+    /***** Experience Section *****/
+    #experience-section .experience-container {
+        grid-template-columns: 1fr;
+    }
+    #experience-section .experience-container .large-icons {
+        display: none;
+    }
+}
