@@ -26,11 +26,15 @@
 @media only screen and (max-width: 768px) {
     /***** Services Section *****/
     #services-section .services-container .panel:hover {
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+}
+}
+
+@media only screen and (max-width: 637) {
     
 }
-}
+
 @media only screen and (max-width: 600px) {
     /***** Top Section *****/
     #top .info {
@@ -47,5 +51,24 @@
     }
     #experience-section .experience-container .large-icons {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 419px) {
+    /***** Blog Section *****/
+    #blog-section .blog-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 588px 588px 588px;
+    grid-gap: 20px;
+    overflow: hidden; 
+}
+    #blog-section .blog-container .post {
+        margin-bottom: -20px;
+    }
+    
+    #blog-section .blog-container .post h2 {
+        padding-bottom: 10px;
+        border-bottom: 2px solid red
     }
 }
