@@ -23,16 +23,42 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     /***** Services Section *****/
     #services-section .services-container .panel:hover {
         -webkit-transform: scale(1.0);
         transform: scale(1.0);
 }
-}
-
-@media only screen and (max-width: 637) {
+    /***** Testimonieal Section *****/
+    #testimonial-section .testimonial-container {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        display: grid;
+        grid-gap: 0;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 200px 1fr; 
+    }
     
+    #testimonial-section .testimonial-container .side-image {
+        margin: 10px;
+    }
+    
+    #testimonial-section .testimonial-container .test-left {
+        grid-column: 1 / 2;
+        grid-row: 1 /  2;
+
+    }
+    
+    #testimonial-section .testimonial-container .test-right {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2; 
+
+    }
+    
+    #testimonial-section .testimonial-container .test-center {
+        grid-column: 1 / span 2;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -54,14 +80,32 @@
     }
 }
 
+@media only screen and (max-width: 572px) {
+    /****** Testimonial Section *****/
+    #testimonial-section .testimonial-container .test-center .test-center-hdr .image-container {
+        position: relative;
+        right: 50px;
+    }
+    
+    #testimonial-section .testimonial-container .test-center .test-center-hdr .customer-info {
+        position: relative;
+        right: 50px
+    }
+    
+    #testimonial-section .testimonial-container .test-center p {
+        position: relative;
+        right: 40px
+    }
+}
+
 @media only screen and (max-width: 419px) {
     /***** Blog Section *****/
     #blog-section .blog-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 588px 588px 588px;
-    grid-gap: 20px;
-    overflow: hidden; 
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 588px 588px 588px;
+        grid-gap: 20px;
+        overflow: hidden; 
 }
     #blog-section .blog-container .post {
         margin-bottom: -20px;
