@@ -63,6 +63,14 @@
 
 @media only screen and (max-width: 600px) {
     /***** Top Section *****/
+    header .header-menu {
+        display: none; 
+    }
+    
+    header .menu-btn {
+        display: block !important; 
+    }
+    
     #top .info {
         position: relative;
         bottom: 202px;
