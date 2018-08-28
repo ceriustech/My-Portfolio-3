@@ -90,6 +90,12 @@ a {
     width: 100%;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
 /* Web Icon Colors */
 .fa-html5 {
     color: #DD723A;
