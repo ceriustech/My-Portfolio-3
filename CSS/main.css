@@ -57,6 +57,8 @@ header .header-menu a {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     margin-left: 20px;
+    padding: 10px;
+    height: 40px;
 }
 
 header .header-menu a:hover {
