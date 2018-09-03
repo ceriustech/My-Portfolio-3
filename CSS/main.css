@@ -22,7 +22,7 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 20px;
+    padding: 20px 20px 20px 0;
     z-index: 2;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -32,12 +32,12 @@ header {
 }
 
 header .logo img {
-    width: 175px;
+    width: 150px;
 }
 
 header .header-menu {
     position: relative;
-    top: 50px;
+    top: 25px;
     font-size: .9em;
     text-transform: uppercase;
     letter-spacing: 2px; 
