@@ -90,10 +90,18 @@ a {
     width: 100%;
 }
 
+/* Fixed Position for Mobile Menu */
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%; 
+}
+
+.mobile-sticky {
+    position: fixed !important;
+    top: 125px !important;
+    width: 100%;
 }
 
 /* Web Icon Colors */

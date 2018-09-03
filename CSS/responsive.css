@@ -23,6 +23,14 @@
     }
 }
 
+@media only screen and (min-width: 769px) {
+    /***** Header Navigation *****/
+    /*** Mobile Menu ***/
+    .mobile-menu {
+        display: none !important;
+    }
+    
+}
 @media only screen and (max-width: 767px) {
     /***** Header Navigation *****/
      header .header-menu {
@@ -32,6 +40,7 @@
     header .menu-btn {
         display: block !important; 
     }
+    
     /***** Services Section *****/
     #services-section .services-container .panel:hover {
         -webkit-transform: scale(1.0);
