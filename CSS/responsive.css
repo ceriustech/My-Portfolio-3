@@ -80,14 +80,21 @@
 
 @media only screen and (max-width: 600px) {
     /***** Top Section *****/
-    
+    #top .container {
+        padding-bottom: 0 !important;
+    }
     #top .info {
         position: relative;
-        bottom: 202px;
+        bottom: 240px;
+        text-align: center;
 }
+    #top .info p {
+        margin: auto;
+        padding-bottom: 25px;
+    }
     #top .img {
         position: relative;
-        bottom: 50px;
+        bottom: 150px;
     }
     /***** Experience Section *****/
     #experience-section .experience-container {
