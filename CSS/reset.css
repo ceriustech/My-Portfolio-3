@@ -94,6 +94,10 @@ a {
     padding-top: 40px;
     margin-bottom: 40px !important;
 }
+
+.tech-icons .icon-1 img {
+    width: 140px;
+}
 /* Fixed Position for Mobile Menu */
 
 .sticky {

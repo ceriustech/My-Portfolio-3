@@ -9,6 +9,7 @@
 @import "footer-section.css";
 @import "responsive.css";
 @import "hovereffect.css";
+@import "project-page.css";
 
 .container {
     max-width: 1160px;

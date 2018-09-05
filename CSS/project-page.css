@@ -1,0 +1,9 @@
+.portfolio-project {
+    position: relative;
+    top: 127px;
+}
+
+.portfolio-project .project-info .project-header .project-image {
+    width: 300px;
+    height: 300px; 
+}
