@@ -1,9 +1,61 @@
 .portfolio-project {
-    position: relative;
-    top: 127px;
+    margin-top: 145px
 }
 
+.portfolio-project .project-info .project-header {
+    margin-bottom: 50px;
+}
 .portfolio-project .project-info .project-header .project-image {
-    width: 300px;
-    height: 300px; 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.portfolio-project .project-info .project-header .project-description {
+    width: 100%;
+    text-align: center; 
+}
+
+.portfolio-project .project-info .project-header .project-description h1 {
+    margin-top: 40px;
+    font-size: 3em;
+}
+
+.portfolio-project .project-info .project-header .project-description p {
+    position: relative;
+    top: 50px;
+    font-size: 1.5em;
+}
+
+.portfolio-project .project-info .project-header .project-description .project-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 25%;
+    margin-left: 35%;
+}
+
+.portfolio-project .project-info .project-header .project-description .project-btn .btn-1, .btn-2 {
+     
+}
+
+.portfolio-project .project-info .project-header .project-image img {
+    width: 50%; 
+}
+
+.portfolio-project .technologies h1 {
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+.portfolio-project .technologies .tech-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.portfolio-project .technologies .tech-icons .icon-1 {
+    font-size: 5em; 
+    margin: 0 40px;
 }
