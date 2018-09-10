@@ -1,8 +1,8 @@
 .grid-container {
     margin-top: 140px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: repeat(3, 150px); 
     grid-gap: 10px;
     background-color: #F9F7FC;
     padding: 10px;
@@ -56,8 +56,13 @@
     padding: 10px 25px;
     margin: 0 5px; 
 }
-
-.grid-container .project-description .project-btn .btn i {
+.grid-container .project-description .project-btn .btn a {
+    color: #fff; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+}
+.grid-container .project-description .project-btn .btn a i {
     margin: 5px 5px; 
 }
 
@@ -75,7 +80,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 10px;
+    margin-left: 5%;
 }
 
 .portfolio-project .technologies .tech-icons .icon-1:nth-child(1) {
@@ -83,9 +88,12 @@
 } 
 
 .portfolio-project .technologies .tech-icons .icon-1 {
-    font-size: 3em;
+    font-size: 2.75em;
     padding: 10px 15px;
     margin: 5px; 
+}
+
+.portfolio-project .technologies .tech-icons .icon-1 i {
     -webkit-box-shadow: 0px 3px 17px 0px rgba(186,184,184,1);
     box-shadow: 0px 3px 17px 0px rgba(186,184,184,1);
 }
