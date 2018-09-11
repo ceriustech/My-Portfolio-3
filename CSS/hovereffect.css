@@ -66,11 +66,10 @@
 
 
 .hovereffect p.icon-links a {
-	float: left;
+	float: right;
 	color: #fff;
 	font-size: 0.9em;
     position: relative;
-    left: 25%;
     top: 5px;
     background: #2fc6b2;
     padding: 5px 10px;
