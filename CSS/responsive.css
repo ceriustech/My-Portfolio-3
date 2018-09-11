@@ -135,6 +135,10 @@
 }
 
 @media only screen and (max-width: 572px) {
+     /***** Project Page *****/
+    .grid-container .project-description .project-btn {
+        margin-left: 10px;
+    }
     /****** Testimonial Section *****/
     #testimonial-section .testimonial-container .test-center .test-center-hdr .image-container {
         position: relative;
