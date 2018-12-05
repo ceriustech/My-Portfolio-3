@@ -10,6 +10,7 @@
 @import "responsive.css";
 @import "hovereffect.css";
 @import "project-page.css";
+@import "navigation.css";
 
 .container {
     max-width: 1160px;

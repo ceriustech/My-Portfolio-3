@@ -1,4 +1,18 @@
- //<select view>
+ //<Hide Menu On Scroll>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-125px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+//</Hide Menu On Scroll>
+
+//<select view>
 //<init slideshow container>
 var slideIndex = 1;
 showSlides(slideIndex);
