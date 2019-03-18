@@ -11,6 +11,7 @@
 @import "hovereffect.css";
 @import "project-page.css";
 @import "navigation.css";
+@import "imagehover.min.css";
 
 .container {
     max-width: 1160px;
