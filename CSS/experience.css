@@ -4,7 +4,7 @@
 
 /****** Experience Title Section ******/
 
-#experience-section .title {
+.experience_title {
     position: relative;
     width: 200px;
     height: 200px;
@@ -20,7 +20,7 @@
     margin: 0 auto;
 }
 
-#experience-section .title .triangle-topright  {
+.triangle_topright  {
     width: 0;
 	height: 0;
 	border-top: 200px solid #f6e2ff;
@@ -29,7 +29,7 @@
     top: 50;
 }
 
-#experience-section .title h1 {
+.experience_title_h1 {
     position: relative;
     font-size: 2.5em;
     text-transform: uppercase;
@@ -39,228 +39,17 @@
     z-index: 1;
 }
 
-#experience-section .experience-container {
+.experience-container {
     margin-top: 25px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
 
-/****** Experience Icon Section ******/
-
-#experience-section .experience-container .large-icons .square {
-    border: 20px solid #52b8ff;
-    display: inline-block;
-    padding: 6px;
-    position: relative;
-    top: -50px;
-}
-
-#experience-section .experience-container .large-icons .square .blue-box {
-    width: 150px;
-    height: 150px;
-    padding: 5px;
-    background: #52b8ff;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.2em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    letter-spacing: 3px;
-}
-
-#experience-section .experience-container .large-icons .circle {
-    border: 20px solid #ffc853;
-    border-radius: 50%;
-    display: inline-block;
-    position: relative;
-    top: 175px;
-}
-
-#experience-section .experience-container .large-icons .circle .circle-box {
-    width: 150px;
-    height: 150px;
-    padding: 5px;
-    right: 75px;
-    font-weight: 700;
-    font-size: 1.2em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #ffc853;
-}
-
-#experience-section .experience-container .large-icons .triangle {
-    width: 0;
-	height: 0;
-	border-style: solid;
-    border-width: 0 150px 230px 150px;
-    border-color: transparent transparent #ff5253 transparent; 
-    position: relative; 
-    top: 150px;
-}
-
-#experience-section .experience-container .large-icons .triangle .triangle-box {
-    width: 0;
-	height: 0;
-	border-style: solid;
-    border-width: 0 93.75px 151.75px 93.75px;
-    border-color: transparent transparent #fff transparent; 
-    position: absolute;
-    left: -94px;
-    top: 49px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #ff5253;
-}
-
-#experience-section .experience-container .large-icons .triangle .triangle-box .text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: relative;
-    top: 85px;
-}
 
 
 
 
-/****** Experience Info Section ******/
 
-#experience-section .experience-container .info {
-    
-}
-
-#experience-section .experience-container .info .info-box {
-    padding: 15px;
-}
-
-#experience-section .experience-container .info .info-box h4{
-    color: #000;
-    font-weight: 600; 
-    font-size: 1.2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-#experience-section .experience-container .info .info-box .date{
-    color: #52b8ff;
-    font-weight: 700;
-    font-size: 1.1em;
-    letter-spacing: 3px;
-    text-transform: capitalize; 
-    padding-top: 15px;
-    padding-bottom: 20px;
-    
-}
-
-#experience-section .experience-container .info .info-box p{
-    color:  #a4a4a4;
-    line-height: 1.8em;
-    
-}
-/*** Border Styles ***/
-
-#experience-section .experience-container .info .info-box .progress-bar .skill-style {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
-    align-items: baseline;
-    margin-top: 15px;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar .skill-style h5 {
-    padding-left: 8px;
-    padding-right: 15px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #7E8CA0;
-    
-}
-/**** Progress Bar ****/
-/** HTML/CSS **/
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-html-css {
-    border: 1px solid #f2f2f1;  
-    background: #f2f2f1;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-html-css .progress-bar-style {
-    background: #2ecc71;
-    width: 85%;
-    text-align: right;
-    color: #fff;
-    padding-right: 5px;
-}
-
-/** Javascript **/
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-js {
-    border: 1px solid #f2f2f1;
-    background: #f2f2f1;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-js .progress-bar-style {
-    background: #2ecc71;
-    width: 40%;
-    text-align: right;
-    color: #fff;
-    padding-right: 5px;
-}
-
-/** PHP **/
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-php {
-    border: 1px solid #f2f2f1;
-    background: #f2f2f1;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-php .progress-bar-style {
-    background: #2ecc71;
-    width: 40%;
-    text-align: right;
-    color: #fff;
-    padding-right: 5px;
-}
-
-/** MySql **/
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-mysql {
-    border: 1px solid #f2f2f1;
-    background: #f2f2f1;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-mysql .progress-bar-style {
-    background: #2ecc71;
-    width: 40%;
-    text-align: right;
-    color: #fff;
-    padding-right: 5px;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar i {
-    font-size: 3.5em;
-}
 
 
