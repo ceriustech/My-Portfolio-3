@@ -1,6 +1,6 @@
 
 
-#portfolio .title {
+.portfolio_title {
     position: relative;
     width: 200px;
     height: 200px;
@@ -16,7 +16,7 @@
     margin: 0 auto;
 }
 
-#portfolio .title .colored-square-2 {
+.colored-square-2 {
     background: #ffeded;
     width: 150px;
     height: 150px;
@@ -24,7 +24,7 @@
     top: 50;
 }
 
-#portfolio .title h1 {
+.portfolio_title_h1 {
     position: relative;
     font-size: 2.5em;
     text-transform: uppercase;
@@ -34,7 +34,7 @@
     z-index: 1;
 }
 
-#portfolio .portfolio-container {
+#portfolio .portfolio_container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: repeat(3, 150px); 
@@ -67,6 +67,5 @@
     border-radius: 5px;
     
 }
-
 
 
