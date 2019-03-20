@@ -44,19 +44,18 @@
 
 
 
-#portfolio .portfolio-container .row .panel {
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    cursor: pointer;
+.portfolio_panel {
+    cursor: pointer !important;
     text-transform: uppercase;
-    -webkit-box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
-    box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
 }
 
 #portfolio .portfolio-container .row .panel img {
     vertical-align: middle;
+}
+
+.portfolio_image {
+    -o-object-fit: contain;
+    object-fit: fill; 
 }
 
 #portfolio .portfolio-container .panel h2 {
