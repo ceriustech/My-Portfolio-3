@@ -46,6 +46,7 @@ function hexagonalPattern() {
 
 //Slideshow container
 //<begin>
+var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {

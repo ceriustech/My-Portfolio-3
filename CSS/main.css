@@ -34,8 +34,16 @@ header {
     height: 125px;
 }
 
+.header_navbar {
+    margin-top: -15px;
+    height: 115px;
+}
+
+.logo {
+    width: 140px;
+}
 header .logo img {
-    width: 150px;
+    width: 100%;
 }
 
 header .header-menu {
