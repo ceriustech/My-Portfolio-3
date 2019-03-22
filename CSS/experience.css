@@ -60,156 +60,153 @@
     height: 100%;
 }
 
-
-
-.hexrow {
-    white-space: nowrap;
-    /*right/left margin set at (( width of child div x sin(30) ) / 2) makes a fairly tight fit; a 3px bottom seems to match*/
-    margin: 0 25px 3px; 
+.clearfix {
+	 *zoom: 1;
 }
-
-.hexrow > div {
-    width: 100px;
-    height: 173.2px; /* ( width x cos(30) ) x 2 */
-    /* For margin:
-    right/left = ( width x sin(30) ) makes no overlap 
-    right/left = (( width x sin(30) ) / 2) leaves a narrow separation
-    */
-    margin: 0 25px; 
-    position: relative;
-    background-image: url(http://i1166.photobucket.com/albums/q605/Artem_Lebedev/dog-training-collars.jpg);
-    background-position: -50px 0; /* -left position -1 x width x sin(30) */
-    background-repeat: no-repeat;
-    background-size: auto 120%;
-    color: #000000;
-    text-align: center;
-    line-height: 173.2px; /*equals height*/
-    display: inline-block;
+ .clearfix:before, .clearfix:after {
+	 display: table;
+	 content: "";
+	 line-height: 0;
 }
-
-.hexrow > div:nth-child(odd) {
-    top: 43.3px; /* ( width x cos(30) / 2 ) */
+ .clearfix:after {
+	 clear: both;
 }
-
-.hexrow > div:nth-child(even) {
-    top: -44.8px; /* -1 x( ( width x cos(30) / 2) + (hexrow bottom margin / 2)) */ 
+ .container {
+	 padding: 0;
+	 margin: 0;
+	 *zoom: 1;
 }
-
-.hexrow > div > div:first-of-type {
-    position: absolute;
-    width: 100%;
-    height: 100%; 
-    top: 0;
-    left: 0;
-    z-index: -1;
-    overflow: hidden;
-    background-image: inherit; /* IE 9 */ /* Firefox */
-    -webkit-transform:rotate(60deg); /* Safari and Chrome */ /* Opera */
-    transform:rotate(60deg);
+ .container:before, .container:after {
+	 display: table;
+	 content: "";
+	 line-height: 0;
 }
-
-.hexrow > div > div:first-of-type:before {
-    content: '';
-    position: absolute;
-    width: 200px; /* width of main + margin sizing */
-    height: 100%;
-    background-image: inherit;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: auto 120%;
-    bottom: 0;
-    left: 0;
-    z-index: 1; /* IE 9 */ /* Firefox */
-    -webkit-transform:rotate(-60deg) translate(-150px, 0); /* Safari and Chrome */ /* Opera */
-    transform:rotate(-60deg) translate(-150px, 0); /* IE 9 */
-    -webkit-transform-origin: 0 0; /* Safari and Chrome */ /* Firefox */ /* Opera */
-    transform-origin: 0 0;
+ .container:after {
+	 clear: both;
 }
-
-.hexrow > div > div:last-of-type {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -2;
-    overflow: hidden;
-    background-image: inherit; /* IE 9 */ /* Firefox */
-    -webkit-transform:rotate(-60deg); /* Safari and Chrome */ /* Opera */
-    transform:rotate(-60deg);
+ .hexa {
+	 float: left;
+	 margin-bottom: 1px;
+	 margin-left: 29.06976744186px;
+	 display: block;
+	 height: 100px;
+	 width: 58.139534883721px;
+	 position: relative;
+	 background: transparent;
 }
-
-.hexrow > div > div:last-of-type:before {
-    content: '';
-    position: absolute;
-    width: 200px; /* starting width + margin sizing */
-    height: 100%;
-    background-image: inherit;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: auto 120%;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    
-    /*translate properties are initial width (100px) and half height (173.2 / 2 = 86.6) */ /* IE 9 */ /* Firefox */
-    -webkit-transform:rotate(60deg) translate(100px, 86.6px); /* Safari and Chrome */ /* Opera */
-    transform:rotate(60deg) translate(100px, 86.6px); /* IE 9 */
-    -webkit-transform-origin: 100% 0; /* Safari and Chrome */ /* Firefox */ /* Opera */
-    transform-origin: 100% 0;
+ .hexa:before {
+	 content: "";
+	 display: block;
+	 width: 58.139534883721px;
+	 height: 100px;
+	 background: transparent;
+	 -webkit-transform: rotateZ(-60deg);
+	 -moz-transform: rotateZ(-60deg);
+	 -moz-transform-style: preserve-3d;
 }
-
-.hexrow > div > span {
-    display: inline-block;
-    margin: 0 -30px;
-    line-height: 1.1;
-    vertical-align: middle;
-    white-space: normal; 
+ .hexa:after {
+	 content: "";
+	 display: block;
+	 width: 58.139534883721px;
+	 height: 100px;
+	 background: transparent;
+	 -webkit-transform: rotateZ(60deg);
+	 -moz-transform: rotateZ(60deg);
+	 -moz-transform-style: preserve-3d;
+	 position: absolute;
+	 top: 0;
 }
-
-.hexrow:nth-child(2) > div:nth-child(1) {
-    background-image: url(http://i724.photobucket.com/albums/ww244/NBAchikk1995/flowers.jpg);
+ .hexa:hover .front {
+	 -webkit-transform: translateZ(-1px) rotateY(180deg);
+	 -moz-transform: translateZ(-1px) rotateY(180deg);
+	 z-index: 800;
 }
-
-.hexrow:nth-child(2) > div:nth-child(1) > span {
-    /*change some other settings*/
-    margin: 0 -20px;
-    color: black;
-    font-size: .8em;
-    font-weight: bold;
+ .hexa:hover .back {
+	 -webkit-transform: translateZ(1px) rotateY(0deg);
+	 -moz-transform: translateZ(1px) rotateY(0deg);
+	 z-index: 900;
 }
-
-.hexrow:nth-child(2) > div:nth-child(2) {
-    background-image: url(http://i197.photobucket.com/albums/aa231/sterling_red/landscape.jpg);
-    color: #ffffff;
+ .hexa .front {
+	 display: block;
+	 height: 100px;
+	 width: 58.139534883721px;
+	 position: relative;
+	 background: #dc276c;
+	 -webkit-transition: all 600ms;
+	 transition: all 600ms;
+	 position: absolute;
+	 top: 0;
+	 -webkit-transform: translateZ(1px) rotateY(0deg);
+	 -moz-transform: translateZ(1px) rotateY(0deg);
+	 -webkit-transform-style: preserve-3d;
+	 -moz-transform-style: preserve-3d;
+	 z-index: 900;
 }
-
-.hexrow:nth-child(2) > div:nth-child(3) {
-    background-image: url(http://i257.photobucket.com/albums/hh204/h22prld98/2157781306_7a7a8e4cf7.jpg);
-    opacity: .3;
-    color: #ffffff;
+ .hexa .front:before {
+	 content: "";
+	 display: block;
+	 width: 58.139534883721px;
+	 height: 100px;
+	 background: #dc276c;
+	 -webkit-transform: rotateZ(-60deg);
+	 -moz-transform: rotateZ(-60deg);
+	 -moz-transform-style: preserve-3d;
 }
-
-.hexrow:nth-child(2) > div:nth-child(3) > div:before {
-    /* nothing special needed here */
+ .hexa .front:after {
+	 content: "";
+	 display: block;
+	 width: 58.139534883721px;
+	 height: 100px;
+	 background: #dc276c;
+	 -webkit-transform: rotateZ(60deg);
+	 -moz-transform: rotateZ(60deg);
+	 -moz-transform-style: preserve-3d;
+	 position: absolute;
+	 top: 0;
 }
-
-.hexrow:nth-child(2) > div:nth-child(4) {
-    background-image: url(http://i916.photobucket.com/albums/ad8/paulak100/Obraz395.jpg);
-    /*you can shift a large background image, but it can get complicated
-    best to keep the image as the total width (200px) and height (174px)
-    that the hex would be.
-    */
-    background-position: -150px -20px;
+ .hexa .back {
+	 display: block;
+	 height: 100px;
+	 width: 58.139534883721px;
+	 position: relative;
+	 background: #ffb533;
+	 -webkit-transition: all 600ms;
+	 transition: all 600ms;
+	 position: absolute;
+	 top: 0;
+	 -webkit-transform: translateZ(-1px) rotateY(-180deg);
+	 -moz-transform: translateZ(-1px) rotateY(-180deg);
+	 -webkit-transform-style: preserve-3d;
+	 -moz-transform-style: preserve-3d;
+	 -webkit-backface-visibility: hidden;
+	 -moz-backface-visibility: hidden;
+	 z-index: 800;
+	 opacity: 0.7;
 }
-
-.hexrow:nth-child(2) > div:nth-child(4) > div:before {
-    background-position: -100px -20px; /* the left shift is always less in the pseudo elements by the amount of the base shift */
+ .hexa .back:before {
+	 content: "";
+	 display: block;
+	 width: 58.139534883721px;
+	 height: 100px;
+	 background: #ffb533;
+	 -webkit-transform: rotateZ(-60deg);
+	 -moz-transform: rotateZ(-60deg);
+	 -moz-transform-style: preserve-3d;
 }
-
-
-
-
-
+ .hexa .back:after {
+	 content: "";
+	 display: block;
+	 width: 58.139534883721px;
+	 height: 100px;
+	 background: #ffb533;
+	 -webkit-transform: rotateZ(60deg);
+	 -moz-transform: rotateZ(60deg);
+	 -moz-transform-style: preserve-3d;
+	 position: absolute;
+	 top: 0;
+}
+ .hexa.top {
+	 top: -50px;
+}
+ 
 

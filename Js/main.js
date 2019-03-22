@@ -1,4 +1,5 @@
- //<Hide Menu On Scroll>
+ //Hide Menu On Scroll
+//<begin>
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
@@ -9,12 +10,42 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+//</end>
 
-//</Hide Menu On Scroll>
+//Experience Section Hexagonal pattern
+//<begin>
+$(window).on('resize', hexagonalPattern);
 
-//<select view>
-//<init slideshow container>
-var slideIndex = 1;
+hexagonalPattern();
+
+function hexagonalPattern() {
+  var width = $('.container').width();
+  var $item = $('.hexa');
+  var itemWidth = $item.width()*2;
+  var margin = 1;
+  var rowLength = Math.floor(width / (itemWidth*3/4+1));
+
+  var itemLength = $item.length;
+  var patternLength = Math.floor(itemLength/rowLength);
+  var currentRow = 1;
+
+  $item.each(function(index) {
+    $(this).removeClass('top');
+    if(index+1 > currentRow*rowLength){
+      currentRow++;
+    }
+  
+    var indexRow = index+1 - (currentRow-1)*rowLength;
+
+    if(indexRow%2 == 0) {
+      $(this).addClass('top');
+    }
+  });
+}
+//</end>
+
+//Slideshow container
+//<begin>
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -40,5 +71,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   faCircle[slideIndex-1].className += " active";
 }
-//</init>
-//<select view>
+//</end>
