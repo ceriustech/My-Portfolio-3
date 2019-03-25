@@ -7,4 +7,6 @@ var mobileBtn = function() {
 
 menuBtn[0].addEventListener('click', mobileBtn)
 
-console.log(menuBtn[0])
+
+
+

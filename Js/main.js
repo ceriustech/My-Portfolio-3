@@ -19,7 +19,7 @@ $(window).on('resize', hexagonalPattern);
 hexagonalPattern();
 
 function hexagonalPattern() {
-  var width = $('.container').width();
+  var width = $('.experience_container').width();
   var $item = $('.hexa');
   var itemWidth = $item.width()*2;
   var margin = 1;
