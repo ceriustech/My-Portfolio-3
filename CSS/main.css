@@ -46,7 +46,7 @@ header .logo img {
     width: 100%;
 }
 
-header .header-menu {
+.header-menu {
     position: relative;
     top: 25px;
     font-size: .9em;
@@ -63,7 +63,7 @@ header .header-menu {
     align-content: center; 
 }
 
-header .header-menu a {
+.header-menu a {
     color: #1D1D22;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -72,7 +72,7 @@ header .header-menu a {
     height: 40px;
 }
 
-header .header-menu a:hover {
+.header-menu a:hover {
     font-weight: 700;
     -webkit-box-shadow: 0px 9px 41px -2px rgba(153,153,153,1);
     box-shadow: 0px 9px 41px -2px rgba(153,153,153,1);
@@ -81,7 +81,7 @@ header .header-menu a:hover {
 
 /***** Mobile Menu *****/
 
-header .menu-btn {
+.menu-btn {
     padding: 20px;
     font-size: 2em; 
     font-weight: 700;
