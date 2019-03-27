@@ -39,8 +39,7 @@
 }
 
 /****** Services Container ******/
-
-#services-section .services-container {
+.services-container {
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -50,7 +49,7 @@
 
 /****** Services Panel Section ******/
 
-#services-section .services-container .services_panel {
+.services_panel {
     background: rgba(255,255,255,0);
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -59,7 +58,7 @@
     cursor: pointer;
 }
 
-#services-section .services-container .services_panel h3 {
+.services_panel h3 {
     font-size: 1.2em;
     font-weight: 800; 
     letter-spacing: 2px;
@@ -88,7 +87,7 @@
     margin-bottom: 50px;
 }
 
-.services_panel:hover {
+.panel_hover_event_1:hover {
     background: rgba(255,255,255,1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);

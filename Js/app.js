@@ -8,12 +8,25 @@ var mobileBtn = function() {
 
 menuBtn[0].addEventListener('click', mobileBtn)
 
-
-var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
-if (viewportWidth > 768) {
-    $('.services_panel').off('mouseenter mouseleave');
-	console.log('Success');
+// Code for adding the hover class and toggling it when the viewport is less than 768px
+// <begin>
+var isMobile = false; //initiate as false
+// device detection
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { 
+    isMobile = true;
+}
+if (!isMobile){
+    $('.services_panel').hover(function(){
+        $(this).addClass('panel_hover_event_1');
+    })
+    console.log("Not Mobile")
+} else {
+    $('.services_panel').click(function(){
+        $(this).toggleClass('panel_hover_event_1');
+    })
+    console.log("Is mobile");
 } 
-    
+
+// <end> 
     
 });
