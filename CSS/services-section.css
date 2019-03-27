@@ -50,7 +50,7 @@
 
 /****** Services Panel Section ******/
 
-#services-section .services-container .panel {
+#services-section .services-container .services_panel {
     background: rgba(255,255,255,0);
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -59,7 +59,7 @@
     cursor: pointer;
 }
 
-#services-section .services-container .panel h3 {
+#services-section .services-container .services_panel h3 {
     font-size: 1.2em;
     font-weight: 800; 
     letter-spacing: 2px;
@@ -67,28 +67,28 @@
     margin-bottom: 40px;
 }
 
-#services-section .services-container .panel p {
+ .services_panel p {
     color: #a4a4a4;
     line-height: 1.5; 
     margin-bottom: 50px;
 } 
 
-#services-section .services-container .fa {
+ .services-container .fa {
     font-size: 2.5em;
     margin-bottom: 50px;
 }
 
-#services-section .services-container .fas {
+.services-container .fas {
     font-size: 2.5em;
     margin-bottom: 50px;
 }
 
-#services-section .services-container .fab {
+.services-container .fab {
     font-size: 2.5em; 
     margin-bottom: 50px;
 }
 
-#services-section .services-container .panel:hover {
+.services_panel:hover {
     background: rgba(255,255,255,1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -97,27 +97,27 @@
     
 }
 
-#services-section .services-container .box-1 {
+.box-1 {
     border-bottom: 2px solid #DA7962;
 }
 
-#services-section .services-container .box-2 {
+.box-2 {
     border-bottom: 2px solid #BF2C3B;
 }
 
-#services-section .services-container .box-3 {
+.box-3 {
     border-bottom: 2px solid #C9A556;
 }
 
-#services-section .services-container .box-4 {
+.box-4 {
     border-bottom: 2px solid #9039CF;
 }
 
-#services-section .services-container .box-5 {
+.box-5 {
     border-bottom: 2px solid #90C160;
 }
 
-#services-section .services-container .box-6 {
+.box-6 {
     border-bottom: 2px solid #3C6F99;
 }
 
