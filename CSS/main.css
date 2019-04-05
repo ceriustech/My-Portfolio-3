@@ -10,8 +10,6 @@
 @import "responsive.css";
 @import "hovereffect.css";
 @import "project-page.css";
-@import "navigation.css";
-@import "imagehover.min.css";
 
 .container {
     max-width: 1160px;
@@ -34,19 +32,11 @@ header {
     height: 125px;
 }
 
-.header_navbar {
-    margin-top: -15px;
-    height: 115px;
-}
-
-.logo {
-    width: 140px;
-}
 header .logo img {
-    width: 100%;
+    width: 150px;
 }
 
-.header-menu {
+header .header-menu {
     position: relative;
     top: 25px;
     font-size: .9em;
@@ -63,7 +53,7 @@ header .logo img {
     align-content: center; 
 }
 
-.header-menu a {
+header .header-menu a {
     color: #1D1D22;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -72,7 +62,7 @@ header .logo img {
     height: 40px;
 }
 
-.header-menu a:hover {
+header .header-menu a:hover {
     font-weight: 700;
     -webkit-box-shadow: 0px 9px 41px -2px rgba(153,153,153,1);
     box-shadow: 0px 9px 41px -2px rgba(153,153,153,1);
@@ -81,7 +71,7 @@ header .logo img {
 
 /***** Mobile Menu *****/
 
-.menu-btn {
+header .menu-btn {
     padding: 20px;
     font-size: 2em; 
     font-weight: 700;

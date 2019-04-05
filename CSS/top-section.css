@@ -1,9 +1,3 @@
-#top {
-    background-image: url("../Img/blue-vector-background-image3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 #top .container {
     display: grid;
@@ -21,7 +15,7 @@
 }
 
 #top .info .colored-square {
-    border: 20px solid #b8e8ef;
+    border: 20px solid #dbf1ff;
     width: 500px;
     height: 500px;
     position: absolute;

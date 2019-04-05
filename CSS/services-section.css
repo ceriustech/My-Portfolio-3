@@ -39,7 +39,8 @@
 }
 
 /****** Services Container ******/
-.services-container {
+
+#services-section .services-container {
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -49,7 +50,7 @@
 
 /****** Services Panel Section ******/
 
-.services_panel {
+#services-section .services-container .panel {
     background: rgba(255,255,255,0);
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -58,7 +59,7 @@
     cursor: pointer;
 }
 
-.services_panel h3 {
+#services-section .services-container .panel h3 {
     font-size: 1.2em;
     font-weight: 800; 
     letter-spacing: 2px;
@@ -66,28 +67,28 @@
     margin-bottom: 40px;
 }
 
- .services_panel p {
+#services-section .services-container .panel p {
     color: #a4a4a4;
     line-height: 1.5; 
     margin-bottom: 50px;
 } 
 
- .services-container .fa {
+#services-section .services-container .fa {
     font-size: 2.5em;
     margin-bottom: 50px;
 }
 
-.services-container .fas {
+#services-section .services-container .fas {
     font-size: 2.5em;
     margin-bottom: 50px;
 }
 
-.services-container .fab {
+#services-section .services-container .fab {
     font-size: 2.5em; 
     margin-bottom: 50px;
 }
 
-.panel_hover_event_1:hover {
+#services-section .services-container .panel:hover {
     background: rgba(255,255,255,1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -96,27 +97,27 @@
     
 }
 
-.box-1 {
+#services-section .services-container .box-1 {
     border-bottom: 2px solid #DA7962;
 }
 
-.box-2 {
+#services-section .services-container .box-2 {
     border-bottom: 2px solid #BF2C3B;
 }
 
-.box-3 {
+#services-section .services-container .box-3 {
     border-bottom: 2px solid #C9A556;
 }
 
-.box-4 {
+#services-section .services-container .box-4 {
     border-bottom: 2px solid #9039CF;
 }
 
-.box-5 {
+#services-section .services-container .box-5 {
     border-bottom: 2px solid #90C160;
 }
 
-.box-6 {
+#services-section .services-container .box-6 {
     border-bottom: 2px solid #3C6F99;
 }
 

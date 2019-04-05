@@ -1,3 +1,5 @@
+// This id for the mobile menu
+// <begin>
 $(document).ready(function(){
 var menuBtn = document.getElementsByClassName('menu-btn')
 var mobileMenu = document.getElementsByClassName('mobile-menu')
@@ -7,7 +9,7 @@ var mobileBtn = function() {
 }
 
 menuBtn[0].addEventListener('click', mobileBtn)
-
+// <end>
 // Code for adding the hover class and toggling it when the viewport is less than 768px
 // <begin>
 var isMobile = false; //initiate as false
