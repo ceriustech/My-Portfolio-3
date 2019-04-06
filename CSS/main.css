@@ -29,11 +29,12 @@ header {
     -ms-flex-pack: justify;
     justify-content: space-between; 
     overflow: hidden;
-    height: 125px;
+    height: 120px;
+    margin-top: -20px;
 }
 
 header .logo img {
-    width: 150px;
+    width: 145px;
 }
 
 header .header-menu {
@@ -69,6 +70,9 @@ header .header-menu a:hover {
     
 }
 
+.logo {
+    width: 145px;
+}
 /***** Mobile Menu *****/
 
 header .menu-btn {
