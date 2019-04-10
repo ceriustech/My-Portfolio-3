@@ -133,6 +133,25 @@ a {
     color: #4F4F4F;
 }
 
+.fa-react {
+    color: #60DBFB;
+}
+
+.fa-node-js {
+    color: #23B45D;
+}
+
+.fa-wordpress {
+    color: #22749B;
+}
+
+.fa-bootstrap {
+    color: #5D3F87;
+}
+
+.fa-git {
+    color: #F05034;
+}
 .fa-circle {
     padding: 5px;
     color: #a4a4a4;

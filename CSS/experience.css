@@ -39,130 +39,24 @@
     z-index: 1;
 }
 
-#experience-section .experience-container {
-    margin-top: 25px;
+.experience-container {
+    margin-top: 80px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 }
 
-
-/****** Experience Info Section ******/
-
-#experience-section .experience-container .info {
-    
+.caption_2 {
+    margin-bottom: 20px;
+    text-align: center
 }
 
-#experience-section .experience-container .info .info-box {
-    padding: 15px;
+.experience_icon {
+    font-size: 6em;
 }
 
-#experience-section .experience-container .info .info-box h4{
-    color: #000;
-    font-weight: 600; 
-    font-size: 1.2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-#experience-section .experience-container .info .info-box .date{
-    color: #52b8ff;
-    font-weight: 700;
-    font-size: 1.1em;
-    letter-spacing: 3px;
-    text-transform: capitalize; 
-    padding-top: 15px;
-    padding-bottom: 20px;
-    
-}
-
-#experience-section .experience-container .info .info-box p{
-    color:  #a4a4a4;
-    line-height: 1.8em;
-    
-}
-/*** Border Styles ***/
-
-#experience-section .experience-container .info .info-box .progress-bar .skill-style {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
-    align-items: baseline;
-    margin-top: 15px;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar .skill-style h5 {
-    padding-left: 8px;
-    padding-right: 15px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #7E8CA0;
-    
-}
-/**** Progress Bar ****/
-/** HTML/CSS **/
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-html-css {
-    border: 1px solid #f2f2f1;  
-    background: #f2f2f1;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-html-css .progress-bar-style {
-    background: #2ecc71;
-    width: 85%;
-    text-align: right;
-    color: #fff;
-    padding-right: 5px;
-}
-
-/** Javascript **/
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-js {
-    border: 1px solid #f2f2f1;
-    background: #f2f2f1;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-js .progress-bar-style {
-    background: #2ecc71;
-    width: 40%;
-    text-align: right;
-    color: #fff;
-    padding-right: 5px;
-}
-
-/** PHP **/
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-php {
-    border: 1px solid #f2f2f1;
-    background: #f2f2f1;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-php .progress-bar-style {
-    background: #2ecc71;
-    width: 40%;
-    text-align: right;
-    color: #fff;
-    padding-right: 5px;
-}
-
-/** MySql **/
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-mysql {
-    border: 1px solid #f2f2f1;
-    background: #f2f2f1;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar .progress-bar-mysql .progress-bar-style {
-    background: #2ecc71;
-    width: 40%;
-    text-align: right;
-    color: #fff;
-    padding-right: 5px;
-}
-
-#experience-section .experience-container .info .info-box .progress-bar i {
-    font-size: 3.5em;
+.experience_container_h3 {
+    color: #7B8FA2;
 }
 
 
