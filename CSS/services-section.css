@@ -19,7 +19,7 @@
     margin: 0 auto;
 }
 
-#services-section .title .colored-circle {
+.services_colored_circle {
     background: #eef9ff;
     width: 150px;
     height: 150px;
@@ -28,7 +28,7 @@
     top: 50;
 }
 
-#services-section .title h1 {
+.services_section_h1 {
     position: relative;
     font-size: 2.5em;
     text-transform: uppercase;
@@ -40,7 +40,7 @@
 
 /****** Services Container ******/
 
-#services-section .services-container {
+.services-container {
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -50,7 +50,7 @@
 
 /****** Services Panel Section ******/
 
-#services-section .services-container .panel {
+.services-container .panel {
     background: rgba(255,255,255,0);
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -73,17 +73,17 @@
     margin-bottom: 50px;
 } 
 
-#services-section .services-container .fa {
+.services-container .fa {
     font-size: 2.5em;
     margin-bottom: 50px;
 }
 
-#services-section .services-container .fas {
+.services-container .fas {
     font-size: 2.5em;
     margin-bottom: 50px;
 }
 
-#services-section .services-container .fab {
+.services-container .fab {
     font-size: 2.5em; 
     margin-bottom: 50px;
 }
@@ -97,27 +97,27 @@
     
 }
 
-#services-section .services-container .box-1 {
+.box-1 {
     border-bottom: 2px solid #DA7962;
 }
 
-#services-section .services-container .box-2 {
+.box-2 {
     border-bottom: 2px solid #BF2C3B;
 }
 
-#services-section .services-container .box-3 {
+.box-3 {
     border-bottom: 2px solid #C9A556;
 }
 
-#services-section .services-container .box-4 {
+.box-4 {
     border-bottom: 2px solid #9039CF;
 }
 
-#services-section .services-container .box-5 {
+.box-5 {
     border-bottom: 2px solid #90C160;
 }
 
-#services-section .services-container .box-6 {
+.box-6 {
     border-bottom: 2px solid #3C6F99;
 }
 

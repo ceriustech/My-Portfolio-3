@@ -127,8 +127,38 @@
 	transition-delay: 0.2s;
 }
 
-/**** Hovereffect-2 ****/
+/**** Hovereffect-2 Border Animation ****/
 
+.border_wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+	  margin: 0 auto;
+  width: 320px;  
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+    color: #7B8FA2;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.border_wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
 /*** Blog-Section ***/
 
 
