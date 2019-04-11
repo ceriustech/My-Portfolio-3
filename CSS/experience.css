@@ -42,21 +42,37 @@
 .experience-container {
     margin-top: 80px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
 }
 
 .caption_2 {
     margin-bottom: 20px;
-    text-align: center
+    text-align: center;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+.caption_2:hover {
+    background: rgba(255,255,255,1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 9px 41px -2px rgba(153,153,153,1);
+    box-shadow: 0px 9px 41px -2px rgba(153,153,153,1);
 }
 
 .experience_icon {
     font-size: 6em;
+    margin-top: 30px
 }
 
 .experience_container_h3 {
     color: #7B8FA2;
 }
 
-
+.experience_container_h4 {
+    color: #0d2c36;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
