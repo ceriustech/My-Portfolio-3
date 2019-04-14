@@ -192,3 +192,13 @@ a {
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
 }
+
+/*** Header text styles ***/
+
+.text_h3 {
+    font-size: 1.2em;
+    font-weight: 600; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}

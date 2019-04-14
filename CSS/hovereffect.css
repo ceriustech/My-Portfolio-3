@@ -358,8 +358,8 @@ button:hover span::before, button:hover span::after {
 }
 
 .caption_2:hover span {
-    opacity: 0.6;
-    transition: .5s ease;
+    opacity: 0.6; 
+    transition: .5s ease-in-out;
 }
 
 .caption_2:hover .middle {
