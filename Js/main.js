@@ -29,14 +29,15 @@ function showSlides(n) {
 }
 //</end>
 
-$('#modal').on('click', function( e ) {
+$('.modal').on('click', function( e ) {
    // Instantiate new modal
 
 var modal = new Custombox.modal({
   content: {
     effect: 'makeway',
-    target: '#myModal',
-    animateFrom: 'left',
+    target: '.myModal',
+    animateFrom: 'top',
+    animateTo: 'center',
     speedIn: 500,
     speedOut: 500, 
     

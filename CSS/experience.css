@@ -82,7 +82,11 @@
 
 
 /* Modal Content */
-#myModal {
+.modal {
+    
+}
+
+.myModal {
     display: none; 
 }
 .modal_content {
@@ -91,7 +95,7 @@
   margin: auto;
   padding: 0;
   border: 1px solid #888;
-  width: 80%;
+  width: 600px;
 }
 
 
