@@ -95,7 +95,19 @@
   margin: auto;
   padding: 0;
   border: 1px solid #888;
-  width: 600px;
+  width: 75%;
+}
+
+.modal_footer {
+  padding: 2px 16px;
+  background-color: #F16529;
+  color: white;
+}
+
+.modal_header {
+  padding: 2px 16px;
+  background-color: #F16529;
+  color: white;
 }
 
 
