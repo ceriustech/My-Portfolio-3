@@ -15,6 +15,7 @@
     <meta property="og:image"              content="https://bilalmasters.com/Img/my-pic-4.jpg" /> 
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/custombox.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.slim.min.js"></script>
     
@@ -215,8 +216,19 @@
                         <h4 class="experience_container_h4">Semantic mark up</h4> 
                        </span>
                        <div class="middle">
-                            <a href="#" class="experience_container_a" target="_blank"><div class="text_2">See More</div>
-                            </a>
+                           <!-- Modal Trigger -->
+                            <div class="experience_container_a" target="_blank"><div id="modal" class="text_2">See More</div>
+                            </div>
+                            <!-- Modal Trigger end -->
+                            
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+
+                          <!-- Modal content -->
+                                <div class="modal_content">
+                                    <p>Some text in the Modal..</p>
+                                </div>
+                            </div>
                         </div>
                     </button>
                     
@@ -437,5 +449,7 @@
 <script type="text/javascript" src="Js/main.js"></script>
 <script type="text/javascript" src="Js/app.js"></script>
 <script type="text/javascript" src="Js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="Js/custombox.min.js"></script>
+<script type="text/javascript" src="Js/custombox.legacy.min.js"></script>
 </body>
 </html>

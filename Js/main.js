@@ -1,17 +1,4 @@
-//Hide Menu On Scroll
-//<begin>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-125px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-//</end>
-
+$(document).ready(function(){
 //Slideshow container
 //<begin>
 var slideIndex = 1;
@@ -41,3 +28,28 @@ function showSlides(n) {
   faCircle[slideIndex-1].className += " active";
 }
 //</end>
+
+$('#modal').on('click', function( e ) {
+   // Instantiate new modal
+
+var modal = new Custombox.modal({
+  content: {
+    effect: 'makeway',
+    target: '#myModal',
+    animateFrom: 'left',
+    speedIn: 500,
+    speedOut: 500, 
+    
+  },
+    
+    overlay: {
+        speedIn: 500, 
+        speedOut: 500, 
+    }
+});
+
+// Open
+modal.open(); 
+});
+ 
+});

@@ -24,7 +24,7 @@ header {
     display: -ms-flexbox;
     display: flex;
     padding: 20px 20px 20px 0;
-    z-index: 2;
+    z-index: 99;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; 

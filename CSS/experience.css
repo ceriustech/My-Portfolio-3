@@ -76,3 +76,49 @@
     font-size: 16px;
     margin-bottom: 30px;
 }
+
+/** Experience Modal Styles **/
+
+
+
+/* Modal Content */
+#myModal {
+    display: none; 
+}
+.modal_content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
