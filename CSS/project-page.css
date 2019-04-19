@@ -1,5 +1,5 @@
 .grid-container {
-    margin-top: 140px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: repeat(3, 150px); 
@@ -19,81 +19,116 @@
     height: 100%; 
 }
 
+#portfolio_1 {
+    margin-top: 140px; 
+}
+
 /* Portfolio Pic */
-.grid-container .project-image {
+.project-image {
     grid-column: 1 / span 2;
-    grid-row: 1 / span 2
+    grid-row: 1 / span 2;
 }
 
 /* Project Description */
-.grid-container .project-description h1 {
+.project_description {
+   border: 2px solid #a5a5a5 !important;
+    position: relative;
+    
+}
+
+.project_description h1 {
     margin: 40px;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 500;
     color: #1D1D22;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: 700;
+    
 }
 
-.grid-container .project-description p {
+.project_description p {
     color: #1D1D22;
-    margin-bottom: 18%;
+    padding: 0 8px;
+    margin-bottom: 50px
 }
 
-.grid-container .project-description .project-btn {
+.project-btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; 
     padding: 12px;
 }
 
-.grid-container .project-description .project-btn .btn {
+.project-btn .btn {
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background: #3A3F54;
-    color: #fff;
     padding: 10px 25px;
-    margin: 0 5px; 
+    margin: auto;
+    margin-top: 10px;
+    width: 200px; 
 }
-.grid-container .project-description .project-btn .btn a {
+.project-btn .btn a {
     color: #fff; 
     display: -webkit-box; 
     display: -ms-flexbox; 
     display: flex;
 }
-.grid-container .project-description .project-btn .btn a i {
+.project-btn .btn a i {
     margin: 5px 5px; 
 }
 
 /* Technologies Info */
-.portfolio-project .technologies h1 {
+.technologies {
+    border: 2px solid #a5a5a5 !important;
+     
+}
+.technologies h1 {
     color: #1D1D22;
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: capitalize; 
-    margin-bottom: 25px; 
+    text-transform: uppercase; 
+    margin-top: 20px
+
 }
 
-.portfolio-project .technologies .tech-icons {
+.tech-icons {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    margin-left: 5%;
+    display: flex; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
-.portfolio-project .technologies .tech-icons .icon-1:nth-child(1) {
-    margin-left: ;
-} 
-
-.portfolio-project .technologies .tech-icons .icon-1 {
+.tech-icons .icon-1 {
     font-size: 2.75em;
     padding: 10px 15px;
     margin: 5px; 
 }
 
-.portfolio-project .technologies .tech-icons .icon-1 i {
-    -webkit-box-shadow: 0px 3px 17px 0px rgba(186,184,184,1);
-    box-shadow: 0px 3px 17px 0px rgba(186,184,184,1);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

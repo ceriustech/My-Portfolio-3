@@ -93,7 +93,7 @@
 
 @media only screen and (max-width: 600px) {
     /***** Project Page *****/
-    .portfolio-project .project-description {
+    .project-description {
         grid-column: 1 / span 2; 
     }
     
