@@ -28,14 +28,14 @@ function showSlides(n) {
   faCircle[slideIndex-1].className += " active";
 }
 //</end>
-
-$('.modal').on('click', function( e ) {
+/*
+$('.modal, .modal2').on('click', function( e ) {
    // Instantiate new modal
 
 var modal = new Custombox.modal({
   content: {
     effect: 'makeway',
-    target: '.myModal',
+    target: '.myModal, myModal2',
     animateFrom: 'top',
     animateTo: 'center',
     speedIn: 500,
@@ -52,5 +52,5 @@ var modal = new Custombox.modal({
 // Open
 modal.open(); 
 });
- 
+*/
 });
