@@ -93,7 +93,7 @@
 
 @media only screen and (max-width: 600px) {
     /***** Project Page *****/
-    .project-description {
+    .project_description {
         grid-column: 1 / span 2; 
     }
     
@@ -101,7 +101,7 @@
         font-size: 2.5em !important; 
     }
     
-    .portfolio-project .technologies {
+    .technologies {
         grid-column: 1 / span 2; 
     }
     
@@ -172,5 +172,19 @@
     #blog-section .blog-container .post h2 {
         padding-bottom: 10px;
         border-bottom: 2px solid red
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    /***** Project Page *****/
+    .project_description {
+        grid-column: 1 / span 1; 
+    }
+    .project-image {
+    grid-column: 1 / span 1 !important;
+    grid-row: 1 / span 2;
+}
+     .technologies {
+        grid-column: 1 / span 1; 
     }
 }
