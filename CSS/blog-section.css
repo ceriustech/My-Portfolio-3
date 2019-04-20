@@ -31,12 +31,13 @@
     z-index: 1;
 }
 
-#blog-section .blog-container {
+ .blog-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: 588px;
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 500px;
+    grid-gap: 10px;
     overflow: hidden; 
+    padding: 10px; 
 }
 
 #blog-section .blog-container .post {
