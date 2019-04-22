@@ -1,5 +1,5 @@
 footer {
-    background: #f9fafc;
+    background: #e4e4e4;
     padding: 100px 15px;
 }
 
@@ -7,6 +7,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     max-width: 400px;
     margin: 0 auto;
@@ -17,36 +19,27 @@ footer {
     color: #8e8f91;
     padding: 10px;
     -webkit-transition: 1.2s; 
-    -moz-transition: 1.2s; 
-    -o-transition: 1.2s; 
+    -webkit-transition: 1.2s ease; 
     transition: 1.2s ease; 
 }
 
 .footer-social-links a .fa-facebook-f {
     -webkit-transition: all .6s ease-in-out;
-    -moz-transition: all .6s ease-in-out;
-    -o-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
 }
 
 .footer-social-links a .fa-twitter {
    -webkit-transition: all .6s ease-in-out;
-    -moz-transition: all .6s ease-in-out;
-    -o-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
 }
 
 .footer-social-links a .fa-linkedin-in {
    -webkit-transition: all .6s ease-in-out;
-    -moz-transition: all .6s ease-in-out;
-    -o-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
 }
 
 .footer-social-links a .fa-dribbble {
    -webkit-transition: all .6s ease-in-out;
-    -moz-transition: all .6s ease-in-out;
-    -o-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
 }
 
