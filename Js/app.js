@@ -18,17 +18,34 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     isMobile = true;
 }
 if (!isMobile){
+    // Services Section
     $('.services_panel').hover(function(){
         $(this).addClass('panel_hover_event_1');
     })
+    // Portfolio Section
+     $('.panel').hover(function(){
+        $(this).addClass('.hovereffect').addClass('.overlay');
+    })
+    // Blog Section 
+     $('.hovereffect-2').hover(function(){
+        $(this).addClass('.post');
+    })
     console.log("Not Mobile")
 } else {
+    // Services Section
     $('.services_panel').click(function(){
         $(this).toggleClass('panel_hover_event_1');
     })
+    // Portfolio Section 
+    $('.panel').click(function(){
+        $(this).toggleClass('.hovereffect').toggleClass('.overlay');
+    })
+    // Blog Section 
+     $('.hovereffect-2').hover(function(){
+        $(this).toggleClass('.post');
+    })
     console.log("Is mobile");
 } 
-
 // <end> 
-    
+
 });

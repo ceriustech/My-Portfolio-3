@@ -40,14 +40,14 @@
     padding: 10px; 
 }
 
-#blog-section .blog-container .post {
+.post {
     position: relative;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     cursor: pointer;
 }
 
-#blog-section .blog-container .post .post-img {
+.post .post-img {
     width: 100%;
     height: 100%;
     background-position: center!important; 
@@ -55,7 +55,7 @@
     background-size: cover !important; 
 }
 
-#blog-section .blog-container .post .details {
+.post .details {
     background: #fff;
     padding: 40px 35px;
     position: absolute;
@@ -65,7 +65,7 @@
     transition: .5s ease;
 }
 
-#blog-section .blog-container .post .details h2 {
+.post .details h2 {
     color: #52b8ff;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -73,7 +73,7 @@
     margin-bottom: 1.8em;
 }
 
-#blog-section .blog-container .post .details p {
+.post .details p {
     color:  #a4a4a4;
     letter-spacing: 1.5px;
     font-weight: 600;
@@ -104,12 +104,12 @@
 
 /* Hover effect on post */
 
-#blog-section .blog-container .post:hover .details {
+.post:hover .details {
     height: 100%;
     -webkit-transform: translate3d(0, -188px, 0);
     transform: translate3d(0, -188px, 0);
 }
 
-#blog-section .blog-container .post:hover .read-more a {
+.post:hover .read-more a {
     opacity: 1
 }

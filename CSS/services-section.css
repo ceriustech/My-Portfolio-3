@@ -50,7 +50,7 @@
 
 /****** Services Panel Section ******/
 
-.services-container .panel {
+.services_panel {
     background: rgba(255,255,255,0);
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -59,7 +59,7 @@
     cursor: pointer;
 }
 
-#services-section .services-container .panel h3 {
+.services_panel h3 {
     font-size: 1.2em;
     font-weight: 800; 
     letter-spacing: 2px;
@@ -67,7 +67,7 @@
     margin-bottom: 40px;
 }
 
-#services-section .services-container .panel p {
+.services_panel p {
     color: #848484;
     line-height: 1.5; 
     margin-bottom: 50px;
@@ -88,7 +88,7 @@
     margin-bottom: 50px;
 }
 
-.services-container .panel:hover {
+.panel_hover_event_1:hover {
     background: rgba(255,255,255,1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);

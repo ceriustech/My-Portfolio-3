@@ -34,7 +34,7 @@
     z-index: 1;
 }
 
-#portfolio .portfolio-container {
+.portfolio-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: repeat(3, 150px); 
