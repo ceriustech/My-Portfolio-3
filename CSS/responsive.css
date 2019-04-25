@@ -18,21 +18,21 @@
 }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
     /***** Header Navigation *****/
     /*** Mobile Menu ***/
-    .mobile-menu {
+    .mobile-menu, .menu_btn {
         display: none !important;
     }
     
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     /***** Header Navigation *****/
      header .header-menu {
          display: none !important;
     }
     
-    header .menu-btn {
+    .menu_btn {
         display: block !important; 
     }
     

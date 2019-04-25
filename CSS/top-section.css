@@ -46,15 +46,18 @@
 }
 
 .top_info_a {
-    position: relative;
+    position: relative; 
     color: #16171c;
     text-transform: uppercase;
     padding-bottom: 5px;
     border-bottom: 2px solid #333;
     font-weight: 700;
     letter-spacing: 2px;
-    z-index: 1;
-    
+    z-index: 1; 
+}
+
+.top_info_icon_github {
+    margin-left: 5px; 
 }
 
 .img {

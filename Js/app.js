@@ -1,14 +1,19 @@
-// This id for the mobile menu
-// <begin>
 $(document).ready(function(){
-var menuBtn = document.getElementsByClassName('menu-btn')
-var mobileMenu = document.getElementsByClassName('mobile-menu')
+// This is for the mobile menu
+// <begin>
 
-var mobileBtn = function() {
-    mobileMenu[0].classList.toggle('active')
-}
+/*var mobileMenu = document.getElementById("mobile_burger")
 
-menuBtn[0].addEventListener('click', mobileBtn)
+mobileMenu.addEventListener('click', toggleFunction() );
+
+function toggleFunction() {
+   mobileMenu.children[0].classList.add('change')
+   mobileMenu.children[1].classList.add('change')
+   mobileMenu.children[2].classList.add('change')
+    console.log(mobileMenu.children[0].classList.add('change'));
+}*/
+
+// }
 // <end>
 // Code for adding the hover class and toggling it when the viewport is less than 768px
 // <begin>
