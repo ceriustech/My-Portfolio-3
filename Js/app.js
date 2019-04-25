@@ -1,20 +1,17 @@
 $(document).ready(function(){
 // This is for the mobile menu
 // <begin>
-
-/*var mobileMenu = document.getElementById("mobile_burger")
-
-mobileMenu.addEventListener('click', toggleFunction() );
-
-function toggleFunction() {
-   mobileMenu.children[0].classList.add('change')
-   mobileMenu.children[1].classList.add('change')
-   mobileMenu.children[2].classList.add('change')
-    console.log(mobileMenu.children[0].classList.add('change'));
-}*/
-
-// }
+// Mobile menu toggle
+// <begin>
+$('.menu-toggle').click(function() {
+  
+    $('.site-nav').toggleClass('site-nav--open', 500);
+    $(this).toggleClass('open');
+    
+  })
+  // <end>
 // <end>
+
 // Code for adding the hover class and toggling it when the viewport is less than 768px
 // <begin>
 var isMobile = false; //initiate as false

@@ -106,8 +106,8 @@
 
 .post:hover .details {
     height: 100%;
-    -webkit-transform: translate3d(0, -188px, 0);
-    transform: translate3d(0, -188px, 0);
+    -webkit-transform: translate3d(0, -192px, 0);
+    transform: translate3d(0, -192px, 0);
 }
 
 .post:hover .read-more a {

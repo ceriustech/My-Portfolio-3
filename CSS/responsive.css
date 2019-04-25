@@ -19,23 +19,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-    /***** Header Navigation *****/
-    /*** Mobile Menu ***/
-    .mobile-menu, .menu_btn {
-        display: none !important;
-    }
+
     
 }
 @media only screen and (max-width: 768px) {
-    /***** Header Navigation *****/
-     header .header-menu {
-         display: none !important;
-    }
-    
-    .menu_btn {
-        display: block !important; 
-    }
-    
     /***** Services Section *****/
     .services_panel:hover {
         -webkit-transform: scale(1.0);
@@ -58,9 +45,6 @@
         grid-column: 1 / span 2; 
     }
     
-    .portfolio-project .project-btn {
-    }
-    
     /***** Top Section *****/
     #top .container {
         padding-bottom: 0 !important;
@@ -78,13 +62,6 @@
         position: relative;
         bottom: 150px;
     }
-    /***** Experience Section *****/
-    #experience-section .experience-container {
-        grid-template-columns: 1fr;
-    }
-    #experience-section .experience-container .large-icons {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 572px) {
@@ -92,30 +69,25 @@
     .grid-container .project-description .project-btn {
         margin-left: 10px;
     }
-    /****** Testimonial Section *****/
-    #testimonial-section .testimonial-container .test-center .test-center-hdr .image-container {
-        position: relative;
-        right: 50px;
-    }
-    
-    #testimonial-section .testimonial-container .test-center .test-center-hdr .customer-info {
-        position: relative;
-        right: 50px
-    }
-    
-    #testimonial-section .testimonial-container .test-center p {
-        position: relative;
-        right: 40px
-    }
 }
 @media only screen and (max-width: 630px) {
         /***** Blog Section *****/
-    #blog-section .blog-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 500px 500px 500px; 
-        grid-gap: 10px;
-        overflow: hidden; 
+#blog-section .blog-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px 500px 500px; 
+    grid-gap: 10px;
+    overflow: hidden; 
+}
+
+.post:hover .details {
+    height: 100%;
+    -webkit-transform: translate3d(0, -225px, 0);
+    transform: translate3d(0, -225px, 0);
+}
+.read-more {
+    position: absolute; 
+    bottom: -5; 
 }
 }
 

@@ -28,9 +28,11 @@
 .pageMessage {
     font-size: 25px;
 }
-
-.fa-users {
-    font-size: 250px;
+.pageMessage a {
+    color: #fff;
+}
+.fa-laptop-code {
+    font-size: 175px;
 }
 
 .landing h1 {
