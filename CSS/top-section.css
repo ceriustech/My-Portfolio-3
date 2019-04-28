@@ -75,3 +75,59 @@
     max-width: 500px;
     height: 700px;
 }
+
+/*** Modal/Form Styles ***/
+#contact_modal {
+    display: none;
+    height: 400px;
+    width: 100%;
+    max-width: 400px;
+}
+.contact_modal_h1 {
+    color: #777;
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.contact_submit_btn {
+    border: none !important;
+}
+form {
+    background: #F9F9F9;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    width: 100%;
+}
+fieldset {
+    border: 1px solid rgb(150, 150, 150);
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+input:not([type=submit]), textarea {
+    width: 100%;
+    padding-left: 20px;
+    border: none;
+}
+
+input:not([type=submit]) {
+    height: 40px;
+    line-height: 40px;
+}
+
+textarea {
+    padding-top: 10px;
+}
+
+#submit {
+    padding: 10px 40px;
+    background-color: #8ad8f7;
+    color: #fff;
+    border-style: none;
+    font-weight: bold;
+}
+#submit:hover {
+    cursor: pointer; 
+}

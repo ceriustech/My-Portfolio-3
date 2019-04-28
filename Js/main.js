@@ -1,14 +1,12 @@
 $(document).ready(function(){
-/*
-$('.modal, .modal2').on('click', function( e ) {
+
+$('#contact').on('click', function( e ) {
    // Instantiate new modal
 
 var modal = new Custombox.modal({
   content: {
-    effect: 'makeway',
-    target: '.myModal, myModal2',
-    animateFrom: 'top',
-    animateTo: 'center',
+    effect: 'blur',
+    target: '#contact_modal',
     speedIn: 500,
     speedOut: 500, 
     
@@ -23,5 +21,5 @@ var modal = new Custombox.modal({
 // Open
 modal.open(); 
 });
-*/
+
 });
