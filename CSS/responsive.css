@@ -86,8 +86,8 @@
     transform: translate3d(0, -225px, 0);
 }
 .read-more {
-    position: absolute; 
-    bottom: -5; 
+    position: absolute;
+    bottom: -5px; 
 }
 }
 

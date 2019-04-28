@@ -11,6 +11,22 @@ $('.menu-toggle').click(function() {
   })
   // <end>
 // <end>
+ 
+// Smooth Scrolling 
+// <begin> 
+var headerHeight = $('header').outerHeight(); // Target your header navigation here
+	
+$('.scroll_btn').click(function(e) {
+  
+  var targetHref   = $(this).attr('href');
+  
+$('html, body').animate({
+  scrollTop: $(targetHref).offset().top - headerHeight // Add it to the calculation here
+}, 1000);
+  
+  e.preventDefault(); 
+});
+// <end> 
 
 // Code for adding the hover class and toggling it when the viewport is less than 768px
 // <begin>
