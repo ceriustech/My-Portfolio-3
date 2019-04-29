@@ -66,4 +66,25 @@ if (!isMobile){
 } 
 // <end> 
 
+// Code for contact form
+// <begin> 
+$(".contact_modal_section #submit").on("click", function(e){
+  e.preventDefault();
+var name = $("#name").val();
+var email = $("#email").val();
+var subject = $("#subject").val();
+var message = $("#message").val();
+var form = new Array({"name": name, "email": email, "subject": subject, "message": message});
+
+$.ajax({
+ type: 'POST',
+  url: "contact.php",
+  data: ({"action": "contact_modal_section", "form": form})
+}).done(function(data) {
+      $('#contact_modal .result').html(data);
+
+  $(".contact-form")[0].reset();
+});
+});
+// <end>
 });
