@@ -184,63 +184,17 @@ header {
   }
   }
 
-/***** Menu *****/
-/*
-header {
-    background: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 20px 20px 20px 0;
-    z-index: 99;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; 
-    overflow: hidden;
-    height: 120px;
-    margin-top: -20px;
+/**** Contact Form Success and Error Messages ****/
+
+.success {
+  color: #31bf2a;
+  font-weight: bold; 
 }
 
-header .logo img {
-    width: 145px;
+.error {
+  color: #bf2a2a;
+  font-weight: bold; 
 }
-
-.header-menu {
-    position: relative;
-    top: 25px;
-    font-size: .9em;
-    text-transform: uppercase;
-    letter-spacing: 2px; 
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: flex-end;
-    -ms-flex-line-pack: center;
-    align-content: center; 
-    width: 100%;
-}
-
-header .header-menu a {
-    color: #1D1D22;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-    margin-left: 20px;
-    padding: 10px;
-    height: 40px;
-}
-
-header .header-menu a:hover {
-    font-weight: 700;
-    -webkit-box-shadow: 0px 9px 41px -2px rgba(153,153,153,1);
-    box-shadow: 0px 9px 41px -2px rgba(153,153,153,1);
-    
-}
-
-.logo {
-    width: 145px;
-}*/
-/***** Mobile Menu *****/
 
 
 

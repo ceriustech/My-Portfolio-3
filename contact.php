@@ -17,8 +17,20 @@ $action = $_POST['action'];
     $subject = $_POST['form'][0]['subject'];
     $message = $_POST['form'][0]['message'];
 
-    if ($name == "" || $email == "" || $message == "" || $subject == "") {
-        echo "<p class=\"error\">There was problem while sending E-Mail. Please verify entered data and try again!</p>";
+    if ($name == "") {
+        echo "<p class=\"error\">Please enter your name.</p>";
+        exit();
+    }
+    if ($email == "") {
+        echo "<p class=\"error\">Please enter your email.</p>";
+        exit();
+    }
+    if ($subject == "") {
+        echo "<p class=\"error\">Please enter a subject.</p>";
+        exit();
+    }
+    if ($message == "") {
+        echo "<p class=\"error\">Please enter a message.</p>";
         exit();
     }
 
