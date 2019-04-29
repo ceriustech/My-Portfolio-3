@@ -68,7 +68,7 @@ if (!isMobile){
 
 // Code for contact form
 // <begin> 
-$(".contact_modal_section #submit").on("click", function(e){
+$(".contact_modal_section #submit").click(function(e){
   e.preventDefault();
 var name = $("#name").val();
 var email = $("#email").val();
