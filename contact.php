@@ -17,6 +17,10 @@ $action = $_POST['action'];
     $subject = $_POST['form'][0]['subject'];
     $message = $_POST['form'][0]['message'];
 
+    if ($name == "" || $email == "" || $message == "" || $subject == "") {
+        echo "<p class=\"error\">Please fill out the contact form.</p>";
+        exit();
+    }
     if ($name == "") {
         echo "<p class=\"error\">Please enter your name.</p>";
         exit();
