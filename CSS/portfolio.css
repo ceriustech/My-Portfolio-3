@@ -39,7 +39,6 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: repeat(3, 150px); 
     grid-gap: 10px;
-    
 }
 
 

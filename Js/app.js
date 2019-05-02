@@ -75,6 +75,8 @@ var email = $("#email").val();
 var subject = $("#subject").val();
 var message = $("#message").val();
 var form = new Array({"name": name, "email": email, "subject": subject, "message": message});
+// This will reset the submit button to it's state prior to form submission 
+$("#submit").prop('disabled', false);
 
 $.ajax({
  type: 'POST',
