@@ -2,44 +2,72 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Bilal Masters-Portfolio</title>
-
+    <title>Bilal Masters</title>
     <meta charset="utf-8"/>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="IE=edg, chrome=1"><!-- Display webpage in edge mode/IE 
     in highes supported document mode -->
      <meta name="keywords" content="web design, bilal masters, bilal, masters, portfolio, affordable web design, urban, urban global, urban global.net, urban freelancer, freelancer, freelancers, professional web design, web development, development, Urban, Urban Freelancer, web design company, web development company">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+    <meta property="og:url"                content="https://bilalmasters.com/" />
+    <meta property="og:title"              content="Bilal Masters" />
+    <meta property="og:description"        content="Web Developer" />
+    <meta property="og:image"              content="https://bilalmasters.com/Img/my-pic-4.jpg" /> 
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/custombox.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="crossorigin="anonymous"></script>
 </head>
-<body>
-        <header class="sticky">
-                <div class="container">
-                    <div class="logo">
-                        <a href="./index.html"><img src="Img/vectorstock_20681631.jpg" alt="Bilal Masters Logo Image" /></a>
-                    </div>
-                  
-                  <!-- Menu -->
-                  <nav class="site-nav">
-                      <ul>
-                       <li><a href="index.html">Home</a></li>
-                       <li><a href="#services-section">Services</a></li>
-                       <li><a href="#portfolio">Portfolio</a></li>
-                       <li><a href="#experience-section">Experience</a></li>
-                       <li><a href="#blog-section">Blog</a></li>
-                       <li><a href="#contact">Contact</a></li>
-                      </ul> 
-                  </nav>
-                  <!-- Mobile Menu -->
-                  <div class="menu-toggle">
-                    <div class="hamburger"></div>
-                  </div>
-                  <!-- Contact Modal -->
-                  
-        </header>
+<body> 
+<!-- Menu -->
+<header class="sticky">
+        <div class="container">
+            <div class="logo"> 
+               <a href="./index.html"><img src="Img/vectorstock_20681631.jpg" alt="Bilal Masters Logo Image" /></a> 
+            </div>
+          
+          <!-- Menu -->
+          <nav class="site-nav">
+              <ul>
+               <li><a class="scroll_btn" href="index.html">Home</a></li>
+               <li><a class="scroll_btn" href="#services-section">Services</a></li>
+               <li><a class="scroll_btn"  href="#portfolio">Portfolio</a></li>
+               <li><a class="scroll_btn"  href="#experience-section">Experience</a></li>
+               <li><a class="scroll_btn"  href="#blog-section">Blog</a></li>
+               <li><a id="contact">Contact</a></li>
+              </ul> 
+          </nav>
+          <!-- Mobile Menu -->
+          <div class="menu-toggle">
+            <div class="hamburger"></div>
+          </div>
+          <!-- Contact Modal -->
+          <div id="contact_modal" class="contact_modal_section">
+              
+            <form class="contact-form animation" data-animation="zoomIn">
+                <h1 class="contact_modal_h1">Contact Me</h1>
+                <p class="result"></p>
+                <fieldset>
+                    <input type="text" id="name" placeholder="Name">
+                </fieldset>
+                <fieldset>
+                    <input type="email" id="email" placeholder="Email">
+                </fieldset>
+                <fieldset>
+                    <input type="text" id="subject" placeholder="Subject">
+                </fieldset>
+                <fieldset>
+                    <textarea rows="7" cols="30" id="message" placeholder="Message"></textarea>
+                </fieldset>
+                <fieldset class="contact_submit_btn">
+                    <input type="submit" id="submit" value="Submit">
+                </fieldset>
+            </form>
+          </div>
+          
+        </div>
+</header> 
 <!-- Project Information Beginning-->
    <div class="container">
     <section id="portfolio_1" class="portfolio-project">
@@ -282,9 +310,9 @@
                 <h5>Bilal Masters</h5>
                 <h6>Web Developer</h6>
     </footer>
-<script type="text/javascript" src="../Js/main.js"></script>
-<script type="text/javascript" src="../Js/app.js"></script>
-<script type="text/javascript" src="../Js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="Js/main.js"></script>
+<script type="text/javascript" src="Js/app.js"></script>
+<script type="text/javascript" src="Js/jquery.waypoints.min.js"></script>
 <script type="text/javascript" src="Js/custombox.min.js"></script>
 <script type="text/javascript" src="Js/custombox.legacy.min.js"></script>
 </body>

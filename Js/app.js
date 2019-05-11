@@ -1,6 +1,4 @@
 $(document).ready(function(){
-// This is for the mobile menu
-// <begin>
 // Mobile menu toggle
 // <begin>
 $('.menu-toggle').click(function() {
@@ -10,7 +8,6 @@ $('.menu-toggle').click(function() {
     
   })
   // <end>
-// <end>
  
 // Smooth Scrolling 
 // <begin> 
