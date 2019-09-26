@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$('#contact').on('click', function( e ) {
+$('#contact').on('click', function(e) {
    // Instantiate new modal
 
 var modal = new Custombox.modal({
@@ -20,6 +20,7 @@ var modal = new Custombox.modal({
 
 // Open
 modal.open(); 
-});
 
 });
+});
+

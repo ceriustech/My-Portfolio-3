@@ -1,3 +1,7 @@
+.spacer {
+    margin-top: 140px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -19,7 +23,7 @@
 }
 
 #portfolio_1 {
-    margin-top: 140px; 
+    
 }
 
 .portfolio-project {
@@ -74,6 +78,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 10px 25px;
     margin: auto;
     margin-top: 10px;
