@@ -1,122 +1,128 @@
-
 #services-section {
+  padding-top: 140px;
 }
 
 /***** Services Title Section ******/
 #services-section .title {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 0 auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .services_colored_circle {
-    background: #eef9ff;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    position: absolute;
-    top: 50;
+  background: #eef9ff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50;
 }
 
 .services_section_h1 {
-    position: relative;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #16171c;
-    letter-spacing: 2px;
-    z-index: 1;
+  position: relative;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #16171c;
+  letter-spacing: 2px;
+  z-index: 1;
 }
 
 /****** Services Container ******/
 
 .services-container {
-    margin-top: 25px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: repeat(3, 150px); 
-    grid-gap: 10px;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: repeat(3, 150px);
+  grid-gap: 10px;
 }
 
 /****** Services Panel Section ******/
 
 .services_panel {
-    background: rgba(255,255,255,0);
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-    padding: 40px;
-    margin: 15px;
+  background: rgba(255, 255, 255, 0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  padding: 40px;
+  margin: 15px;
 }
 
 .services_panel h3 {
-    font-size: 1.2em;
-    font-weight: 800; 
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 40px;
+  font-size: 1.2em;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .services_panel p {
-    color: #848484;
-    line-height: 1.5; 
-    margin-bottom: 50px;
-} 
+  color: #848484;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
 
 .services-container .fa {
-    font-size: 2.5em;
-    margin-bottom: 50px;
+  font-size: 2.5em;
+  margin-bottom: 50px;
 }
 
 .services-container .fas {
-    font-size: 2.5em;
-    margin-bottom: 50px;
+  font-size: 2.5em;
+  margin-bottom: 50px;
 }
 
 .services-container .fab {
-    font-size: 2.5em; 
-    margin-bottom: 50px;
+  font-size: 2.5em;
+  margin-bottom: 50px;
 }
 
 .panel_hover_event_1:hover {
-    background: rgba(255,255,255,1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-box-shadow: 0px 9px 41px -2px rgba(153,153,153,1);
-    box-shadow: 0px 9px 41px -2px rgba(153,153,153,1);
-    
+  background: rgba(255, 255, 255, 1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-box-shadow: 0px 9px 41px -2px rgba(153, 153, 153, 1);
+  box-shadow: 0px 9px 41px -2px rgba(153, 153, 153, 1);
 }
 
 .box-1 {
-    border-bottom: 2px solid #DA7962;
+  border-bottom: 2px solid #da7962;
 }
 
 .box-2 {
-    border-bottom: 2px solid #BF2C3B;
+  border-bottom: 2px solid #bf2c3b;
 }
 
 .box-3 {
-    border-bottom: 2px solid #C9A556;
+  border-bottom: 2px solid #c9a556;
 }
 
 .box-4 {
-    border-bottom: 2px solid #9039CF;
+  border-bottom: 2px solid #9039cf;
 }
 
 .box-5 {
-    border-bottom: 2px solid #90C160;
+  border-bottom: 2px solid #90c160;
 }
 
 .box-6 {
-    border-bottom: 2px solid #3C6F99;
+  border-bottom: 2px solid #3c6f99;
 }
 
+/** Media Queries **/
+
+@media only screen and (max-width: 475px) {
+  #services-section {
+    padding-top: 80px;
+  }
+}

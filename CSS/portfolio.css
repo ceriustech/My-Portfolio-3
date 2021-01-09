@@ -1,71 +1,79 @@
-
-
 #portfolio .title {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 0 auto;
+  /* position: relative;
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto; */
+}
+
+.portfolio-page-link {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .colored-square-2 {
-    background: #ffeded;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 50;
+  background: #ffeded;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50;
 }
 
 .portfolio_h1 {
-    position: relative;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #16171c;
-    letter-spacing: 2px;
-    z-index: 1;
+  position: relative;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #16171c;
+  letter-spacing: 2px;
+  z-index: 1;
 }
 
 .portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: repeat(3, 150px); 
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: repeat(3, 150px);
+  grid-gap: 10px;
 }
 
-
-
 .portfolio-container.panel {
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    cursor: pointer;
-    text-transform: uppercase;
-    -webkit-box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
-    box-shadow: 1px 7px 16px 2px rgba(186,184,186,1);
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-box-shadow: 1px 7px 16px 2px rgba(186, 184, 186, 1);
+  box-shadow: 1px 7px 16px 2px rgba(186, 184, 186, 1);
 }
 
 .portfolio_img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .portfolio_h2 {
-    font-size: .9em;
-    font-weight: 800; 
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border-radius: 5px;
-    
+  font-size: 0.9em;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 5px;
 }
-
-
-

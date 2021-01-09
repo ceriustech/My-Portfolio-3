@@ -1,29 +1,96 @@
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 * Media */
 /* For Mobile Phones */
 [class*="col-"] {
-    width: 100%;
+  width: 100%;
 }
 
 /*
@@ -43,149 +110,160 @@ time, mark, audio, video {
 }
 */
 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 html {
-    font-family: 'Open Sans', sans-serif; 
+  font-family: "Open Sans", sans-serif;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 a {
-    text-decoration: none; 
+  text-decoration: none;
 }
 
 /*** Helper Classes ***/
 
 .section-padding {
-    padding: 80px 15px;
- 
+  padding: 80px 15px;
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .title {
-    padding-top: 40px;
-    margin-bottom: 40px !important;
+  margin-bottom: 40px !important;
 }
 
 .tech-icons .icon-1 img {
-    width: 140px;
+  width: 140px;
 }
 /* Fixed Position for Mobile Menu */
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%; 
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .mobile-sticky {
-    position: fixed !important;
-    top: 125px !important;
-    width: 100%;
+  position: fixed !important;
+  top: 125px !important;
+  width: 100%;
 }
 
 /* Web Icon Colors */
 .fa-html5 {
-    color: #DD723A;
+  color: #dd723a;
 }
 
 .fa-css3-alt {
-    color: #5464C2;
+  color: #5464c2;
 }
 
 .fa-js-square {
-    color: #E18D42;
+  color: #e18d42;
 }
 
 .fa-php {
-    color: #816BB0;
+  color: #816bb0;
 }
 
 .fa-database {
-    color: #4F4F4F;
+  color: #4f4f4f;
 }
 
 .fa-react {
-    color: #60DBFB;
+  color: #60dbfb;
 }
 
 .fa-node-js {
-    color: #23B45D;
+  color: #23b45d;
 }
 
 .fa-wordpress {
-    color: #22749B;
+  color: #22749b;
 }
 
 .fa-bootstrap {
-    color: #5D3F87;
+  color: #5d3f87;
 }
 
 .fa-git {
-    color: #F05034;
+  color: #f05034;
 }
 .fa-github-square {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 .fa-circle {
-    padding: 5px;
-    color: #a4a4a4;
-    -webkit-transition: color 0.6s ease;
-    transition: color 0.6s ease;
+  padding: 5px;
+  color: #a4a4a4;
+  -webkit-transition: color 0.6s ease;
+  transition: color 0.6s ease;
 }
 
 .talkbubble {
-   width: 150px;
-   height: 100px;
-   background: #c6ecef;
-   position: absolute;
-   border-radius:         10px;
-    z-index: 0;
+  width: 150px;
+  height: 100px;
+  background: #c6ecef;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 0;
 }
 .talkbubble:before {
-   content:"";
-   position: absolute;
-   right: 100%;
-   top: 26px;
-   width: 0;
-   height: 0;
-   border-top: 13px solid transparent;
-   border-right: 26px solid #c6ecef;
-   border-bottom: 13px solid transparent;
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid #c6ecef;
+  border-bottom: 13px solid transparent;
 }
 
 .pacman {
   width: 0px;
   height: 0px;
-    position: absolute;
+  position: absolute;
   border-right: 70px solid transparent;
   border-top: 70px solid #f7e8b2;
   border-left: 70px solid #f7e8b2;
@@ -199,9 +277,9 @@ a {
 /*** Header text styles ***/
 
 .text_h3 {
-    font-size: 1.2em;
-    font-weight: 600; 
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
